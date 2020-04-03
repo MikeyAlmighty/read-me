@@ -6,4 +6,5 @@
 - [useReducer API](https://reactjs.org/docs/hooks-reference.html#usereducer)
 - [UseReducer Hook](https://alligator.io/react/usereducer/)
 - [Nomics CryptoCurrency & Bitcoin API](http://docs.nomics.com/)
-
+- [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [WebAIM WCAG checklist](https://webaim.org/standards/wcag/checklist#understandable)
