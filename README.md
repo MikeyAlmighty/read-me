@@ -11,6 +11,8 @@
 # April
 - [WebAIM WCAG checklist](https://webaim.org/standards/wcag/checklist#understandable)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Flutter](https://flutter.dev/)
+- [Dart programming tutorial](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
 
 ## Course Work
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
