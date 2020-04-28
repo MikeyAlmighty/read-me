@@ -13,6 +13,8 @@
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Flutter](https://flutter.dev/)
 - [Dart programming tutorial](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
+- [Navigate ES6 Projects with Vim ctags](https://medium.com/trabe/navigate-es6-projects-with-vim-using-ctags-948d114b94f3)
+- [Quick and easy guide to Tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
 ## Course Work
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
