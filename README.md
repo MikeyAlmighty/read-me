@@ -21,6 +21,7 @@
 - [How does Terraria handle thousands of tiles?](https://www.youtube.com/watch?v=YIDbhVPHZbs)
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
 - [Computer, build me an App](https://www.youtube.com/watch?v=qqt6YxAZoOc)
+- [The Return of 'Write Less, Do More'](https://www.youtube.com/watch?v=BzX4aTRPzno)
 
 ## Course Work
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
