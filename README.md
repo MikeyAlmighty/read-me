@@ -17,11 +17,16 @@
 - [Navigate ES6 Projects with Vim ctags](https://medium.com/trabe/navigate-es6-projects-with-vim-using-ctags-948d114b94f3)
 - [Quick and easy guide to Tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
+## Course Work
+- [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
+
+
 # May
+## Book of the month
+- [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
+
+## Articles
 - [How does Terraria handle thousands of tiles?](https://www.youtube.com/watch?v=YIDbhVPHZbs)
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
 - [Computer, build me an App](https://www.youtube.com/watch?v=qqt6YxAZoOc)
 - [The Return of 'Write Less, Do More'](https://www.youtube.com/watch?v=BzX4aTRPzno)
-
-## Course Work
-- [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
