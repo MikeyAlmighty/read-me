@@ -30,4 +30,6 @@
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
 - [Computer, build me an App](https://www.youtube.com/watch?v=qqt6YxAZoOc)
 - [The Return of 'Write Less, Do More'](https://www.youtube.com/watch?v=BzX4aTRPzno)
-- [AHA Programming](https://www.youtube.com/watch?v=wuVy7rwkCfc&list=PLNBNS7NRGKMGCBNebw8xkpkq_lhgPoIzR&index=3&t=0s)
+- [AHA Programming](https://www.youtube.com/watch?v=wuVy7rwkCfc)
+- [Buttons vs Divs](https://www.youtube.com/watch?v=wDa-0tp4_t8)
+- [Prefer Duplication over bad Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
