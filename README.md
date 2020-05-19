@@ -30,3 +30,4 @@
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
 - [Computer, build me an App](https://www.youtube.com/watch?v=qqt6YxAZoOc)
 - [The Return of 'Write Less, Do More'](https://www.youtube.com/watch?v=BzX4aTRPzno)
+- [AHA Programming](https://www.youtube.com/watch?v=wuVy7rwkCfc&list=PLNBNS7NRGKMGCBNebw8xkpkq_lhgPoIzR&index=3&t=0s)
