@@ -34,3 +34,5 @@
 - [Buttons vs Divs](https://www.youtube.com/watch?v=wDa-0tp4_t8)
 - [Prefer Duplication over bad Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 - [Mostly complete guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_213)
+- [React Reconciliation](https://reactjs.org/docs/reconciliation.html)
+- [Building a Custom React Renderer](https://www.youtube.com/watch?v=CGpMlWVcHok)
