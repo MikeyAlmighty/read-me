@@ -39,3 +39,9 @@
 - [Five common mistakes writing react components (with Hooks)](https://www.lorenzweiss.de/common_mistakes_react_hooks/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_214)
 - [How EDA solves modern web app Problems](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems/)
 - [Efficient Application scaling? Serverless!](https://stackoverflow.blog/2020/05/18/you-want-efficient-application-scaling-go-serverless/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
+
+# June
+## Book of the month 
+
+## Articles
+- [Data fetching with getServerSideProps](https://www.youtube.com/watch?v=61TngxLrP_0)
