@@ -48,3 +48,5 @@
 - [Static is the new Dynamic (Static Site Generation)](https://rauchg.com/2020/2019-in-review#static-is-the-new-dynamic)
 - [Next.js 9.3 Data fetching (getServerSideProps)](https://www.youtube.com/watch?v=QABkof8ygzI)
 - [Tim Neutkens - Continuing to Innovate with Next.js 9.3](https://www.fullstackradio.com/episodes/137)
+- [FirstUniqueCharacter - Amazon coding interview Question](https://www.youtube.com/watch?v=5co5Gvp_-S0)
+- [What Developers can learn from healthcare.gov](http://radar.oreilly.com/2013/10/what-developers-can-learn-from-healthcare-gov.html)
