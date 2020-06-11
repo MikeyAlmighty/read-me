@@ -47,3 +47,4 @@
 - [Data fetching with getServerSideProps](https://www.youtube.com/watch?v=61TngxLrP_0)
 - [Static is the new Dynamic (Static Site Generation)](https://rauchg.com/2020/2019-in-review#static-is-the-new-dynamic)
 - [Next.js 9.3 Data fetching (getServerSideProps)](https://www.youtube.com/watch?v=QABkof8ygzI)
+- [Tim Neutkens - Continuing to Innovate with Next.js 9.3](https://www.fullstackradio.com/episodes/137)
