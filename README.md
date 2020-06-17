@@ -51,3 +51,4 @@
 - [FirstUniqueCharacter - Amazon coding interview Question](https://www.youtube.com/watch?v=5co5Gvp_-S0)
 - [What Developers can learn from healthcare.gov](http://radar.oreilly.com/2013/10/what-developers-can-learn-from-healthcare-gov.html)
 - [Why premature Optimization is the Root of All Evil](https://stackify.com/premature-optimization-evil/)
+- [Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
