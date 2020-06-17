@@ -53,3 +53,4 @@
 - [Why premature Optimization is the Root of All Evil](https://stackify.com/premature-optimization-evil/)
 - [Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
 - [JS Testing Intro: Unit, Integration and e2e Tests](https://www.youtube.com/watch?v=r9HdJ8P6GQI)
+- [Mocking Async Code](https://www.youtube.com/watch?v=4Fl5GH4eYZ8)
