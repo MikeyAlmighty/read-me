@@ -20,7 +20,6 @@
 ## Course Work
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
 
-
 # May
 ## Book of the month
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
@@ -42,6 +41,7 @@
 
 # June
 ## Book of the month 
+- [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 
 ## Articles
 - [Data fetching with getServerSideProps](https://www.youtube.com/watch?v=61TngxLrP_0)
@@ -54,3 +54,6 @@
 - [Seven Ineffective Coding Habits of Many Programmers](https://www.youtube.com/watch?v=ZsHMHukIlJY)
 - [JS Testing Intro: Unit, Integration and e2e Tests](https://www.youtube.com/watch?v=r9HdJ8P6GQI)
 - [Mocking Async Code](https://www.youtube.com/watch?v=4Fl5GH4eYZ8)
+- [Testing React Components](https://www.youtube.com/watch?v=NE_aorvSeSQ)
+- [What is React Testing Library](https://www.youtube.com/watch?v=JKOwJUM4_RM)
+- [React Testing Library](https://github.com/testing-library/react-testing-library)
