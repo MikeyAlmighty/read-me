@@ -62,3 +62,4 @@
 - [NHS Revealse Source Code behind contact-tracing App](https://www.bbc.com/news/technology-52579547)
 - [The UK is abandoning its current contact tracing app for Google and Apple's system](https://www.technologyreview.com/2020/06/18/1004097/the-uk-is-abandoning-its-current-contact-tracing-app-for-google-and-apples-system/)
 - [The UK's contact tracing app fiasco is a master class in mismanagement](https://www.technologyreview.com/2020/06/19/1004190/uk-covid-contact-tracing-app-fiasco/)
+- [The Problem With Time and TimeZones](https://www.youtube.com/watch?v=-5wpm-gesOY)
