@@ -65,3 +65,4 @@
 - [The Problem With Time and TimeZones](https://www.youtube.com/watch?v=-5wpm-gesOY)
 - [How did Vim Become so popular](https://pragmaticpineapple.com/how-did-vim-become-so-popular/)
 - [Do NOT Follow JavaScript Trends](https://pragmaticpineapple.com/do-not-follow-javascript-trends/)
+- [Ultimate vim TypeScript setup](https://pragmaticpineapple.com/ultimate-vim-typescript-setup/)
