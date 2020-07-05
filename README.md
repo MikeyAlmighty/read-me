@@ -66,3 +66,8 @@
 - [How did Vim Become so popular](https://pragmaticpineapple.com/how-did-vim-become-so-popular/)
 - [Do NOT Follow JavaScript Trends](https://pragmaticpineapple.com/do-not-follow-javascript-trends/)
 - [Ultimate vim TypeScript setup](https://pragmaticpineapple.com/ultimate-vim-typescript-setup/)
+
+# July
+
+## Articles
+- [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
