@@ -71,3 +71,4 @@
 
 ## Articles
 - [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
+- [Go is Boring...And That's Fantastic](https://www.capitalone.com/tech/software-engineering/go-is-boring/?external_id=CARD_CMEM)
