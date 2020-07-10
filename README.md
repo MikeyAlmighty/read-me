@@ -71,3 +71,4 @@
 
 ## Articles
 - [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
+-[NextJS ServerSide Rendering vs StaticGeneration](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
