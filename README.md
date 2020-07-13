@@ -71,8 +71,9 @@
 
 ## Articles
 - [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
-<<<<<<< HEAD
 - [Go is Boring...And That's Fantastic](https://www.capitalone.com/tech/software-engineering/go-is-boring/?external_id=CARD_CMEM)
-=======
--[NextJS ServerSide Rendering vs StaticGeneration](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
->>>>>>> 0e6554cae98496261d2a876313b4a1280a9709bb
+- [NextJS ServerSide Rendering vs StaticGeneration](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
+- [Metals Vim Docs](https://scalameta.org/metals/docs/editors/vim.html)
+- [Metals Rich Code Editing for Scala in Vim](https://www.youtube.com/watch?v=MRQMylDxBJ8)
+- [Getting Started with Scala and SBT CLI](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
+- [Zero To Hero Vim+Metals Setup for Scal](https://www.youtube.com/watch?v=VUOw4thpb1I)
