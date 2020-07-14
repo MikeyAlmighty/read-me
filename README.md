@@ -77,3 +77,6 @@
 - [Metals Rich Code Editing for Scala in Vim](https://www.youtube.com/watch?v=MRQMylDxBJ8)
 - [Getting Started with Scala and SBT CLI](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
 - [Zero To Hero Vim+Metals Setup for Scal](https://www.youtube.com/watch?v=VUOw4thpb1I)
+- [So you want to write an interpreter?](https://www.youtube.com/watch?v=LCslqgM48D4)
+- [Writing an Interpreter in Go](https://interpreterbook.com/)
+
