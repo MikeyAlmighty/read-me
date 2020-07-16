@@ -79,4 +79,7 @@
 - [Zero To Hero Vim+Metals Setup for Scal](https://www.youtube.com/watch?v=VUOw4thpb1I)
 - [So you want to write an interpreter?](https://www.youtube.com/watch?v=LCslqgM48D4)
 - [Writing an Interpreter in Go](https://interpreterbook.com/)
+- [New in Chrome CSS Overview](https://css-tricks.com/new-in-chrome-css-overview/)
+- [Differences SSG vs SSR](https://www.smashingmagazine.com/2020/07/differences-static-generated-sites-server-side-rendered-apps/)
+
 
