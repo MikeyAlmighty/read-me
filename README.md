@@ -81,5 +81,4 @@
 - [Writing an Interpreter in Go](https://interpreterbook.com/)
 - [New in Chrome CSS Overview](https://css-tricks.com/new-in-chrome-css-overview/)
 - [Differences SSG vs SSR](https://www.smashingmagazine.com/2020/07/differences-static-generated-sites-server-side-rendered-apps/)
-
-
+- [Essential Scala: Six Core Principles for Learning Scala](https://www.youtube.com/watch?v=J8wUy1XxL5o)
