@@ -83,4 +83,4 @@
 - [Differences SSG vs SSR](https://www.smashingmagazine.com/2020/07/differences-static-generated-sites-server-side-rendered-apps/)
 - [Concurrency is NOT Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso)
 - [Communicating Sequential Processes](https://www.youtube.com/watch?v=3gXWA6WEvOM)
-
+- [Essential Scala: Six Core Principles for Learning Scala](https://www.youtube.com/watch?v=J8wUy1XxL5o)
