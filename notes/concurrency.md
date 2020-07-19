@@ -8,8 +8,10 @@ that Code is NOT running in parallel.
 Multiple CPUs on a machine running a program using the concurrent design pattern,
 can run in parallel.
 
-Concurrency = Composition of independently executing things (typically functions)
-Parallelism = Simultaneous execution of multiple things (possibly related, possibly not)
+| Concurrency | Parallelism |
+--------------|-------------|
+| Composition of independently executing things (typically functions) | Simultaneous execution of multiple things (possibly related, possibly not) |
+
 
 ### Layman's Terms:
 * Concurrency = Dealing with a lot of things at once
