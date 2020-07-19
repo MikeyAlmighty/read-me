@@ -1,3 +1,5 @@
+## Concurrency
+
 Concurrency = Design Pattern
 
 If you run a program that uses a concurrent design pattern on a single CPU,
@@ -9,39 +11,40 @@ can run in parallel.
 Concurrency = Composition of independently executing things (typically functions)
 Parallelism = Simultaneous execution of multiple things (possibly related, possibly not)
 
-Layman's Terms:
-Concurrency = Dealing with a lot of things at once
-Parallelism = Doing a lot of things at once
+### Layman's Terms:
+* Concurrency = Dealing with a lot of things at once
+* Parallelism = Doing a lot of things at once
 
-Concurrency => Hard to Debug, due to non-deterministic behaviour
-			=> Depends mostly on OS's scheduler (not your code)
+* Hard to Debug, due to non-deterministic behaviour
+* Depends mostly on OS's scheduler (not your own written code)
 			
-			Symptons: Race conditions
+### Issues:
+Race conditions
 
-			Mutexes or locks used to solve Race condition, BUT
-			that can cause deadlocks
+Mutexes or locks can be used to solve Race condition, BUT
+that can cause deadlocks
 
-			Hard to reproduce, hard to debug, hard to ensure reliability
+Hard to reproduce, hard to debug, hard to ensure reliability
 
-			Few solutions:
-					Semaphores, Mutexes and locks
-					Atomic operations
-					Compare & swap
-					Synchronization
+### Few solutions:
+* Semaphores, Mutexes and locks
+* Atomic operations
+* Compare & swap
+* Synchronization
 
-			These solutions have on weaknesses:
-						1. Complex overhead
-						2. Leaky
-						3. Non-Composable
+### These solutions have own weaknesses:
+* Complex overhead
+* Leaky
+* Non-Composable
 
 
-		    Wanted solution: 
-						1. Simplicity
-						2. Abstractions
-						3. Composability
-						4. Conccurent
+### Wanted solution: 
+* Simplicity
+* Abstractions
+* Composability
+* Conccurent
 
-Processes communicate with channels (pass pipes, texts,bytes even other channels)
+Processes communicate with channels (which you can pass pipes, texts,bytes even other channels)
 
-GoLang Motto: Don't communicate by sharing memory,
-SHARE memory by Communicating
+> Don't Communicate by Sharing Memory,  Share Memory by Communcating 
+> - GoLang 
