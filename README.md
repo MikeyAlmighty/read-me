@@ -81,5 +81,6 @@
 - [Writing an Interpreter in Go](https://interpreterbook.com/)
 - [New in Chrome CSS Overview](https://css-tricks.com/new-in-chrome-css-overview/)
 - [Differences SSG vs SSR](https://www.smashingmagazine.com/2020/07/differences-static-generated-sites-server-side-rendered-apps/)
-
+- [Concurrency is NOT Parallelism](https://www.youtube.com/watch?v=cN_DpYBzKso)
+- [Communicating Sequential Processes](https://www.youtube.com/watch?v=3gXWA6WEvOM)
 
