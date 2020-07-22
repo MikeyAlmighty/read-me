@@ -14,14 +14,11 @@ p u q is choice between p and q (only one of them are executed)
 
 
 Laws of regular Algebra
--------------------------------------------------
+
  p;(q;r) => (p;q);r | ; associates and so does u 
--------------------|----------------------------
  1;p => p == p;1   | 1 is the unit of ; (nothing followed by execution of p, is the lone execution of p)
--------------------|----------------------------
  p u q = q u p     | u commutes                 
  p u p = p | u is idempotent (Choice of p or p is p) 
--------------------|----------------------------
  p;(q u r) = p;q u p;r | ; distributes through u and leftward as well
 -------------------|----------------------------
 
