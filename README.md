@@ -1,5 +1,5 @@
 # March
-
+## Articles
 - [Building Secure React Applications](https://www.youtube.com/watch?v=O91hJJ5KMLs)
 - [British Airways Hack Details](https://www.wired.com/story/british-airways-hack-details/)
 - [Magecart British Airways Breach](https://www.riskiq.com/blog/labs/magecart-british-airways-breach/)
@@ -9,7 +9,7 @@
 
 
 # April
-
+## Articles
 - [WebAIM WCAG checklist](https://webaim.org/standards/wcag/checklist#understandable)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Flutter](https://flutter.dev/)
@@ -21,9 +21,6 @@
 - [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
 
 # May
-## Book of the month
-- [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
-
 ## Articles
 - [How does Terraria handle thousands of tiles?](https://www.youtube.com/watch?v=YIDbhVPHZbs)
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
@@ -40,9 +37,6 @@
 - [Efficient Application scaling? Serverless!](https://stackoverflow.blog/2020/05/18/you-want-efficient-application-scaling-go-serverless/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
 
 # June
-## Book of the month 
-- [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
-
 ## Articles
 - [Data fetching with getServerSideProps](https://www.youtube.com/watch?v=61TngxLrP_0)
 - [Static is the new Dynamic (Static Site Generation)](https://rauchg.com/2020/2019-in-review#static-is-the-new-dynamic)
@@ -68,7 +62,6 @@
 - [Ultimate vim TypeScript setup](https://pragmaticpineapple.com/ultimate-vim-typescript-setup/)
 
 # July
-
 ## Articles
 - [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
 - [Go is Boring...And That's Fantastic](https://www.capitalone.com/tech/software-engineering/go-is-boring/?external_id=CARD_CMEM)
@@ -90,3 +83,7 @@
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
+
+## Books
+- [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
+- [The C Programming Language aka The Bible](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
