@@ -79,6 +79,7 @@
 - [Essential Scala: Six Core Principles for Learning Scala](https://www.youtube.com/watch?v=J8wUy1XxL5o)
 - [Why Go is successful (aka Simplicity Is Complicated)](https://www.youtube.com/watch?v=k9Zbuuo51go)
 - [The Laws Of Programming with Concurrency](https://www.youtube.com/watch?v=9kKQ8uLK8mk)
+- [GopherCon 2015 Russ Cox Keynote](https://www.youtube.com/watch?v=XvZOdpd_9tc)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
