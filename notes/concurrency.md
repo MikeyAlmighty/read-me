@@ -49,4 +49,4 @@ Hard to reproduce, hard to debug, hard to ensure reliability
 Processes communicate with channels (which you can pass pipes, texts,bytes even other channels)
 
 > Don't Communicate by Sharing Memory,  Share Memory by Communcating 
-> - GoLang 
+> GoLang 
