@@ -82,6 +82,7 @@
 - [GopherCon 2015 Russ Cox Keynote](https://www.youtube.com/watch?v=XvZOdpd_9tc)
 - [Learn to Build an SVG Animation With CSS](https://www.youtube.com/watch?v=gWai7fYp9PY)
 - [SVG Illustrations as React Components](https://www.youtube.com/watch?v=1gG8rtm-rq4)
+- [Educatuin and community on the Web](https://stackoverflow.blog/2020/07/21/podcast-254-code-newbie-education-community/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
