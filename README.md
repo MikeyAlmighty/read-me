@@ -83,6 +83,7 @@
 - [Learn to Build an SVG Animation With CSS](https://www.youtube.com/watch?v=gWai7fYp9PY)
 - [SVG Illustrations as React Components](https://www.youtube.com/watch?v=1gG8rtm-rq4)
 - [Education and community on the Web](https://stackoverflow.blog/2020/07/21/podcast-254-code-newbie-education-community/)
+- [25 Years of Java: The Past To The Present](https://stackoverflow.blog/2020/07/29/podcast-sponsored-25-years-of-java-oracle)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
