@@ -86,6 +86,11 @@
 - [25 Years of Java: The Past To The Present (Part:1)](https://stackoverflow.blog/2020/07/29/podcast-sponsored-25-years-of-java-oracle)
 - [Features that made an impact and a look into the future (Part:2)](https://stackoverflow.blog/2020/07/30/java-at-25-features-that-made-an-impact-and-a-look-to-the-future)
 
+# August
+## Articles
+- [Few of our favorite hacks](https://stackoverflow.blog/2020/08/04/podcast-257-a-few-of-our-favorite-haxx)
+
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
