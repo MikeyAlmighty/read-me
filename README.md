@@ -89,7 +89,8 @@
 # August
 ## Articles
 - [Few of our favorite hacks](https://stackoverflow.blog/2020/08/04/podcast-257-a-few-of-our-favorite-haxx)
-
+- [Optimizing CSS for faster page loads](https://pustelto.com/blog/optimizing-css-for-faster-page-loads)
+- [DropShadow the underrated CSS Filter](https://css-irl.info/drop-shadow-the-underrated-css-filter)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
