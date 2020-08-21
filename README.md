@@ -90,6 +90,8 @@
 ## Articles
 - [Few of our favorite hacks](https://stackoverflow.blog/2020/08/04/podcast-257-a-few-of-our-favorite-haxx)
 - [Keep the Footer at the bottom Flexbox vs Grid](https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/)
+- [Optimizing CSS for faster page loads](https://pustelto.com/blog/optimizing-css-for-faster-page-loads)
+- [DropShadow the underrated CSS Filter](https://css-irl.info/drop-shadow-the-underrated-css-filter)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
