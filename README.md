@@ -92,6 +92,7 @@
 - [Keep the Footer at the bottom Flexbox vs Grid](https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/)
 - [Optimizing CSS for faster page loads](https://pustelto.com/blog/optimizing-css-for-faster-page-loads)
 - [DropShadow the underrated CSS Filter](https://css-irl.info/drop-shadow-the-underrated-css-filter)
+- [Deploy Friday: E19 Netlify, JAMStack and NextJS](https://www.youtube.com/watch?v=mUF7-lkTI4Q)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
