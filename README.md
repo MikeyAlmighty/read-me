@@ -89,7 +89,7 @@
 # August
 ## Articles
 - [Few of our favorite hacks](https://stackoverflow.blog/2020/08/04/podcast-257-a-few-of-our-favorite-haxx)
-
+- [Keep the Footer at the bottom Flexbox vs Grid](https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
