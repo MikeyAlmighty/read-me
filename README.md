@@ -93,6 +93,8 @@
 - [Optimizing CSS for faster page loads](https://pustelto.com/blog/optimizing-css-for-faster-page-loads)
 - [DropShadow the underrated CSS Filter](https://css-irl.info/drop-shadow-the-underrated-css-filter)
 - [Deploy Friday: E19 Netlify, JAMStack and NextJS](https://www.youtube.com/watch?v=mUF7-lkTI4Q)
+- [Svelte: Write Less Code](https://svelte.dev/blog/write-less-code)
+- [Svelte: Frameworks with the Framework](https://svelte.dev/blog/frameworks-without-the-framework)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
