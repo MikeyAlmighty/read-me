@@ -7,7 +7,6 @@
 - [UseReducer Hook](https://alligator.io/react/usereducer/)
 - [Nomics CryptoCurrency & Bitcoin API](http://docs.nomics.com/)
 
-
 # April
 ## Articles
 - [WebAIM WCAG checklist](https://webaim.org/standards/wcag/checklist#understandable)
@@ -96,9 +95,15 @@
 - [Svelte: Write Less Code](https://svelte.dev/blog/write-less-code)
 - [Svelte: Frameworks with the Framework](https://svelte.dev/blog/frameworks-without-the-framework)
 
+# September
+- [TypeScript for React](https://www.youtube.com/watch?v=NjN00cM18Z4)
+- [React TypeScript Tutorial](https://www.youtube.com/watch?v=0_C2X1yRRac)
+- [Prettier Setup](https://prettier.io/docs/en/install.html)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
+- [Typescript Tutorial - Typescript for React](notes/typescript.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
