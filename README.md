@@ -99,6 +99,7 @@
 - [TypeScript for React](https://www.youtube.com/watch?v=NjN00cM18Z4)
 - [React TypeScript Tutorial](https://www.youtube.com/watch?v=0_C2X1yRRac)
 - [Prettier Setup](https://prettier.io/docs/en/install.html)
+- [Writing NeoVim Plugin Part 1](https://www.youtube.com/watch?v=9L4sW047oow)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
