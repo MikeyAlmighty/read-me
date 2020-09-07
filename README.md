@@ -102,6 +102,7 @@
 - [Writing NeoVim Plugin Part 1](https://www.youtube.com/watch?v=9L4sW047oow)
 - [Comparing Browsers for responsive Design](https://css-tricks.com/comparing-browsers-for-responsive-design/)
 - [Why I'm using NextJS in 2020](https://www.youtube.com/watch?v=rtgbaKBhdkk)
+- [5 Most annoying website Features I faces as a blind Screen reader (User Accessibility)](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
