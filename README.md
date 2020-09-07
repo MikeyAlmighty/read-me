@@ -100,6 +100,7 @@
 - [React TypeScript Tutorial](https://www.youtube.com/watch?v=0_C2X1yRRac)
 - [Prettier Setup](https://prettier.io/docs/en/install.html)
 - [Writing NeoVim Plugin Part 1](https://www.youtube.com/watch?v=9L4sW047oow)
+- [Comparing Browsers for responsive Design](https://css-tricks.com/comparing-browsers-for-responsive-design/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
