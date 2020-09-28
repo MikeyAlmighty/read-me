@@ -105,6 +105,7 @@
 - [Why I'm using NextJS in 2020](https://www.youtube.com/watch?v=rtgbaKBhdkk)
 - [5 Most annoying website Features I faces as a blind Screen reader (User Accessibility)](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/)
 - [Guidelines To Improve React App Folder Structure](https://maxrozen.com/guidelines-improve-react-app-folder-structure/)
+- [Introducing The New JSX Transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
