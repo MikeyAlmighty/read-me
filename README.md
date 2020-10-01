@@ -96,6 +96,7 @@
 - [Svelte: Frameworks with the Framework](https://svelte.dev/blog/frameworks-without-the-framework)
 
 # September
+## Articles
 - [TypeScript for React](https://www.youtube.com/watch?v=NjN00cM18Z4)
 - [React TypeScript Tutorial](https://www.youtube.com/watch?v=0_C2X1yRRac)
 - [Prettier Setup](https://prettier.io/docs/en/install.html)
@@ -106,6 +107,11 @@
 - [5 Most annoying website Features I faces as a blind Screen reader (User Accessibility)](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/)
 - [Guidelines To Improve React App Folder Structure](https://maxrozen.com/guidelines-improve-react-app-folder-structure/)
 - [Introducing The New JSX Transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+# October
+## Articles
+- [If Everyone Hates it Why Is OOP Still So Widely Spread](https://stackoverflow.blog/2020/09/02/if-everyone-hates-it-why-is-oop-still-so-widely-spread)
+
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
