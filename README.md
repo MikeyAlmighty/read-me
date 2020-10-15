@@ -111,7 +111,8 @@
 # October
 ## Articles
 - [If Everyone Hates it Why Is OOP Still So Widely Spread](https://stackoverflow.blog/2020/09/02/if-everyone-hates-it-why-is-oop-still-so-widely-spread)
-
+- [Play The long Game When Learning To Code](https://stackoverflow.blog/2020/10/05/play-the-long-game-when-learning-to-code)
+- [Where Do Game Developers Fit In The World Of Software](https://the-stack-overflow-podcast.simplecast.com/episodes/where-do-game-developers-fit-in-the-world-of-software)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
