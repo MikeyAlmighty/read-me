@@ -116,6 +116,7 @@
 - [Where Do Game Developers Fit In The World Of Software](https://the-stack-overflow-podcast.simplecast.com/episodes/where-do-game-developers-fit-in-the-world-of-software)
 - [Fig Strangler Pattern (Rewriting)](https://martinfowler.com/bliki/StranglerFigApplication.html)
 - [QA With the Creators of NextJS on 9.5](https://stackoverflow.blog/2020/10/07/qa-with-the-creators-of-next-js-on-version-9-5)
+- [The Generic Dilemma](https://research.swtch.com/generic)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
