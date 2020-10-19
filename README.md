@@ -107,12 +107,15 @@
 - [5 Most annoying website Features I faces as a blind Screen reader (User Accessibility)](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/)
 - [Guidelines To Improve React App Folder Structure](https://maxrozen.com/guidelines-improve-react-app-folder-structure/)
 - [Introducing The New JSX Transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+- [Avoiding Burnout As An Ambitious Developer](https://stackoverflow.blog/2020/01/13/avoiding-burnout-as-an-ambitious-developer/)
 
 # October
 ## Articles
 - [If Everyone Hates it Why Is OOP Still So Widely Spread](https://stackoverflow.blog/2020/09/02/if-everyone-hates-it-why-is-oop-still-so-widely-spread)
 - [Play The long Game When Learning To Code](https://stackoverflow.blog/2020/10/05/play-the-long-game-when-learning-to-code)
 - [Where Do Game Developers Fit In The World Of Software](https://the-stack-overflow-podcast.simplecast.com/episodes/where-do-game-developers-fit-in-the-world-of-software)
+- [Fig Strangler Pattern (Rewriting)](https://martinfowler.com/bliki/StranglerFigApplication.html)
+- [QA With the Creators of NextJS on 9.5](https://stackoverflow.blog/2020/10/07/qa-with-the-creators-of-next-js-on-version-9-5)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
