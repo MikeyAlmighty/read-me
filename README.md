@@ -118,6 +118,11 @@
 - [QA With the Creators of NextJS on 9.5](https://stackoverflow.blog/2020/10/07/qa-with-the-creators-of-next-js-on-version-9-5)
 - [The Generic Dilemma](https://research.swtch.com/generic)
 
+# December
+## Articles
+- [Podcast 287: How do you make software reliable enough for space travel](https://stackoverflow.blog/2020/11/17/podcast-287-how-do-you-make-software-reliable-enough-for-space-travel)
+- [What's so great about Go?](https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
