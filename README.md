@@ -122,11 +122,13 @@
 ## Articles
 - [Podcast 287: How do you make software reliable enough for space travel](https://stackoverflow.blog/2020/11/17/podcast-287-how-do-you-make-software-reliable-enough-for-space-travel)
 - [What's so great about Go?](https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages)
+- [The Power of 10: Rules for Developing Safety-Critical Code](https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
 - [Typescript Tutorial - Typescript for React](notes/typescript.md)
+- [Rules for Developing Safety-Critical Code](notes/rules-for-developing-safety-critical-code.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
