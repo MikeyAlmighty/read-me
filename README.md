@@ -124,6 +124,7 @@
 - [What's so great about Go?](https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages)
 - [The Power of 10: Rules for Developing Safety-Critical Code](https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code)
 - [TypeScript Generics Tutorial](https://www.youtube.com/watch?v=nViEqpgwxHE)
+- [Tips To Stay Focused And Finish Your Hobby Project](https://stackoverflow.blog/2020/12/03/tips-to-stay-focused-and-finish-your-hobby-project)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
