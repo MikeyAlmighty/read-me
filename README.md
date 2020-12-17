@@ -125,12 +125,14 @@
 - [The Power of 10: Rules for Developing Safety-Critical Code](https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code)
 - [TypeScript Generics Tutorial](https://www.youtube.com/watch?v=nViEqpgwxHE)
 - [Tips To Stay Focused And Finish Your Hobby Project](https://stackoverflow.blog/2020/12/03/tips-to-stay-focused-and-finish-your-hobby-project)
+- [Finding A Problem At The Bottom Of The Google Stack](https://cloud.google.com/blog/products/management-tools/sre-keeps-digging-to-prevent-problems)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
 - [Typescript Tutorial - Typescript for React](notes/typescript.md)
 - [Rules for Developing Safety-Critical Code](notes/rules-for-developing-safety-critical-code.md)
+- [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
