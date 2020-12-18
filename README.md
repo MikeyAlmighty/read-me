@@ -127,6 +127,7 @@
 - [Tips To Stay Focused And Finish Your Hobby Project](https://stackoverflow.blog/2020/12/03/tips-to-stay-focused-and-finish-your-hobby-project)
 - [Finding A Problem At The Bottom Of The Google Stack](https://cloud.google.com/blog/products/management-tools/sre-keeps-digging-to-prevent-problems)
 - [Life of a Pixel](https://www.youtube.com/watch?v=PwYxv-43iM4)
+- [The Macro Prolem With Microservices](https://stackoverflow.blog/2020/11/23/the-macro-problem-with-microservices)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
