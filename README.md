@@ -128,6 +128,7 @@
 - [Finding A Problem At The Bottom Of The Google Stack](https://cloud.google.com/blog/products/management-tools/sre-keeps-digging-to-prevent-problems)
 - [Life of a Pixel](https://www.youtube.com/watch?v=PwYxv-43iM4)
 - [The Macro Prolem With Microservices](https://stackoverflow.blog/2020/11/23/the-macro-problem-with-microservices)
+- [Cypress In a Nutshell](https://www.youtube.com/watch?v=LcGHiFnBh3Y)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
