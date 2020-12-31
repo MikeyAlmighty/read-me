@@ -129,6 +129,7 @@
 - [Life of a Pixel](https://www.youtube.com/watch?v=PwYxv-43iM4)
 - [The Macro Prolem With Microservices](https://stackoverflow.blog/2020/11/23/the-macro-problem-with-microservices)
 - [Cypress In a Nutshell](https://www.youtube.com/watch?v=LcGHiFnBh3Y)
+- [Rust Linz 2020 - Intro to Cargo](https://www.youtube.com/watch?v=X78zccoCylA)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
@@ -136,6 +137,7 @@
 - [Typescript Tutorial - Typescript for React](notes/typescript.md)
 - [Rules for Developing Safety-Critical Code](notes/rules-for-developing-safety-critical-code.md)
 - [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
+- [Cargo Introduction](notes/rust/cargo-intro.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
