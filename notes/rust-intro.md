@@ -16,5 +16,3 @@ productivity, speed and ergonomics.
 - [1.1.Installation](https://doc.rust-lang.org/book/ch01-01-installation.html)
 - [1.2 Hello World](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
 - [1.3 Hello Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
-
-https://doc.rust-lang.org/book/ch01-01-installation.html

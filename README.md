@@ -130,6 +130,8 @@
 - [The Macro Prolem With Microservices](https://stackoverflow.blog/2020/11/23/the-macro-problem-with-microservices)
 - [Cypress In a Nutshell](https://www.youtube.com/watch?v=LcGHiFnBh3Y)
 - [Rust Linz 2020 - Intro to Cargo](https://www.youtube.com/watch?v=X78zccoCylA)
+- [i3WM Jump Start](https://www.youtube.com/watch?v=j1I63wGcvU4)
+
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)

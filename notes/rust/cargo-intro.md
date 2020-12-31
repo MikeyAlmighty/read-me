@@ -19,5 +19,13 @@ Rust Package Manager
   * Benchmarks
 * examples
   * Example Code
-* tests
+* tests (integration tests)
   * Integration tests
+
+> Cargo.lock = package-lock.json (Repeatable build, faster tooling)
+> Cargo.toml = package.json
+
+> TOML: Tom's Obvious, Minimal, Language [TOML](https://github.com/toml-lang/toml)
+Built on **SEMVER**
+
+> target/debug/deps = node_modules
