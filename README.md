@@ -1,5 +1,5 @@
 <details closed>
-<summary>2021</summary>
+<summary>2020</summary>
 
 # March
 ## Articles
@@ -138,10 +138,15 @@
 - [Ricing i3](https://www.youtube.com/watch?v=ARKIwOlazKI)
 
 </details>
-<br>
+
+<details open>
+<summary>2021</summary>
+
 #January
 ## Articles
 - [Rust: The Prelude](https://doc.rust-lang.org/std/prelude/index.html)
+
+</details>
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
