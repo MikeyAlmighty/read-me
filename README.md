@@ -132,6 +132,7 @@
 - [Rust Linz 2020 - Intro to Cargo](https://www.youtube.com/watch?v=X78zccoCylA)
 - [i3WM Jump Start](https://www.youtube.com/watch?v=j1I63wGcvU4)
 - [i3WM Configuration](https://www.youtube.com/watch?v=8-S0cWnLBKg)
+- [Ricing i3](https://www.youtube.com/watch?v=ARKIwOlazKI)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
