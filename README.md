@@ -1,3 +1,6 @@
+<details closed>
+<summary>2021</summary>
+
 # March
 ## Articles
 - [Building Secure React Applications](https://www.youtube.com/watch?v=O91hJJ5KMLs)
@@ -133,6 +136,12 @@
 - [i3WM Jump Start](https://www.youtube.com/watch?v=j1I63wGcvU4)
 - [i3WM Configuration](https://www.youtube.com/watch?v=8-S0cWnLBKg)
 - [Ricing i3](https://www.youtube.com/watch?v=ARKIwOlazKI)
+
+</details>
+<br>
+#January
+## Articles
+- [Rust: The Prelude](https://doc.rust-lang.org/std/prelude/index.html)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
