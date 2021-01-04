@@ -142,7 +142,7 @@
 <details open>
 <summary>2021</summary>
 
-#January
+# January
 ## Articles
 - [Rust: The Prelude](https://doc.rust-lang.org/std/prelude/index.html)
 
