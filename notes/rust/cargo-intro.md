@@ -30,9 +30,9 @@ Built on **SEMVER**
 
 > Target/debug/deps = node_modules
 
-Top Level has its own Cargo.toml file of project => Workspace
-Maintained commonly inside of workspace.
-Workspace share commont output directory (target)
+
+Top Level has its own Cargo.toml file of project => Workspace, commonly maintained inside of a single workspace.
+Workspace share common output directory (target)
 
 Crates.io is where crates can be found, documentation, deps, repo etc.
 Cargo tooling understands deps to install from: 
