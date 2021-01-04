@@ -28,4 +28,34 @@ Rust Package Manager
 > TOML: Tom's Obvious, Minimal, Language [TOML](https://github.com/toml-lang/toml)
 Built on **SEMVER**
 
-> target/debug/deps = node_modules
+> Target/debug/deps = node_modules
+
+Top Level has its own Cargo.toml file of project => Workspace
+Maintained commonly inside of workspace.
+Workspace share commont output directory (target)
+
+Crates.io is where crates can be found, documentation, deps, repo etc.
+Cargo tooling understands deps to install from: 
+* crates.io
+* git links
+* path 
+
+Cargo supports multiple sources (registry version AND local version).
+
+**Eg. Cargo.toml:**
+
+```
+[dependencies]
+rand = "0.7"
+num_cpus = "1.0"
+num_cpus = { git="https://www.github.com/deadpool/kills" }
+```
+
+Cargo does build Optimizations for faster compilation
+
+compiling in --release is optimized for performance (obviously).
+
+Build scripts: Rust has a build.rs at root of project.
+Use cases: Build C Libraries, generate Rust Code, set platform-specific config settings, etc.
+build.rs is Compiled and Executed before  building the package.
+
