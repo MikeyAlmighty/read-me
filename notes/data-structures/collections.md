@@ -14,7 +14,7 @@ happens in constant time.
 
 ## Linked Lists
 
-- [Implementation](data-structures/impl/linked-lists.js)
+- [Implementation](./impl/linked-lists.js)
 Has a value, and a next property associated along with it
 which points to the next value of an element.
 
