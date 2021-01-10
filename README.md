@@ -145,6 +145,8 @@
 # January
 ## Articles
 - [Rust: The Prelude](https://doc.rust-lang.org/std/prelude/index.html)
+- [Different between 32bit and 64bit System](https://techterms.com/help/difference_between_32-bit_and_64-bit_systems)
+- [JS Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA)
 
 </details>
 
