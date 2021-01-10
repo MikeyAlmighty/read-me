@@ -157,6 +157,7 @@
 - [Rules for Developing Safety-Critical Code](notes/rules-for-developing-safety-critical-code.md)
 - [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
 - [Cargo Introduction](notes/rust/cargo-intro.md)
+- [Data Structures](notes/data-structures/collections.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
