@@ -1,5 +1,4 @@
 ### Collections
-No order
 
 ## Lists - (Types don't matter) 
 
