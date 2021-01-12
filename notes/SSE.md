@@ -17,6 +17,9 @@ SSE is similar to WebSockets, except:
 Content-type: text/event-stream
 Connection: keep-alive
 
+Client sends /GET text/event-stream to notify server we want to establish SSE.
+Server responds with text/stream and "Transfer-Encoded:chunked".
+
 ## Event body
 
 ```
