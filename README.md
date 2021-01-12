@@ -152,6 +152,9 @@
 - [Vim Tricks: Ensuring Aligned Indentation](https://vimtricks.com/p/ensuring-aligned-indentation/)
 - [Intro to ServerSide Events (SSE)](https://iabhishek.dev/post/an-intro-to-server-sent-events)
 - [Server-sent Events Crash Course](https://www.youtube.com/watch?v=4HlNv1qpZFY)
+- [An overview of Arrays and Memory](https://www.youtube.com/watch?v=pmN9ExDf3yQ)
+- [Memory In a Computer System](https://www.youtube.com/watch?v=F0Ri2TpRBBg)
+
 
 </details>
 
@@ -164,6 +167,7 @@
 - [Cargo Introduction](notes/rust/cargo-intro.md)
 - [Data Structures](notes/data-structures/collections.md)
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
+- [Algorithms](notes/Algorithms/README.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
