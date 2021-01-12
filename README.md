@@ -149,6 +149,7 @@
 - [JS Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA)
 - [StackOverflow: Podcast 300](https://stackoverflow.blog/2021/01/01/podcast-300-welcome-to-2021-with-joel-spolsky)
 - [What React Gets Wrong](https://thejunkland.com/blog/what-react-gets-wrong.html)
+- [Vim Tricks: Ensuring Aligned Indentation](https://vimtricks.com/p/ensuring-aligned-indentation/)
 
 </details>
 
