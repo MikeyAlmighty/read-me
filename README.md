@@ -150,6 +150,8 @@
 - [StackOverflow: Podcast 300](https://stackoverflow.blog/2021/01/01/podcast-300-welcome-to-2021-with-joel-spolsky)
 - [What React Gets Wrong](https://thejunkland.com/blog/what-react-gets-wrong.html)
 - [Vim Tricks: Ensuring Aligned Indentation](https://vimtricks.com/p/ensuring-aligned-indentation/)
+- [Intro to ServerSide Events (SSE)](https://iabhishek.dev/post/an-intro-to-server-sent-events)
+- [Server-sent Events Crash Course](https://www.youtube.com/watch?v=4HlNv1qpZFY)
 
 </details>
 
@@ -161,6 +163,7 @@
 - [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
 - [Cargo Introduction](notes/rust/cargo-intro.md)
 - [Data Structures](notes/data-structures/collections.md)
+- [Intro to ServerSide Events (SSE)](notes/SSE.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
