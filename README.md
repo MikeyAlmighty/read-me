@@ -154,7 +154,8 @@
 - [Server-sent Events Crash Course](https://www.youtube.com/watch?v=4HlNv1qpZFY)
 - [An overview of Arrays and Memory](https://www.youtube.com/watch?v=pmN9ExDf3yQ)
 - [Memory In a Computer System](https://www.youtube.com/watch?v=F0Ri2TpRBBg)
-
+- [Everything about React Server Components](https://vercel.com/blog/everything-about-react-server-components)
+- [React Server Components with Next.js Demo](https://www.youtube.com/watch?v=DuSa5E-GgwU)
 
 </details>
 
