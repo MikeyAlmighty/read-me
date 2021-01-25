@@ -157,6 +157,7 @@
 - [Everything about React Server Components](https://vercel.com/blog/everything-about-react-server-components)
 - [React Server Components with Next.js Demo](https://www.youtube.com/watch?v=DuSa5E-GgwU)
 - [Oops. I Guess We Are Full Stack Devs Now](https://css-tricks.com/ooooops-i-guess-were-full-stack-developers-now/)
+- [Front-End Developers: The Great Divide](https://css-tricks.com/the-great-divide/)
 
 </details>
 
