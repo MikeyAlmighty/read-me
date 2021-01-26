@@ -159,6 +159,8 @@
 - [Oops. I Guess We Are Full Stack Devs Now](https://css-tricks.com/ooooops-i-guess-were-full-stack-developers-now/)
 - [Front-End Developers: The Great Divide](https://css-tricks.com/the-great-divide/)
 - [JAMStack... more Like SHAMStack](https://css-tricks.com/jamstack-more-like-shamstack/)
+- [Front-End 2021 Predictions](https://www.browserlondon.com/blog/2021/01/04/front-end-predictions-2021)
+- [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
 
 </details>
 
@@ -172,6 +174,7 @@
 - [Data Structures](notes/data-structures/collections.md)
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
 - [Algorithms](notes/Algorithms/README.md)
+- [JS Prototypes 101](notes/js/prototypes.js)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
