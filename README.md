@@ -161,9 +161,12 @@
 - [JAMStack... more Like SHAMStack](https://css-tricks.com/jamstack-more-like-shamstack/)
 - [Front-End 2021 Predictions](https://www.browserlondon.com/blog/2021/01/04/front-end-predictions-2021)
 - [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
-- [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
 </details>
+
+# February
+- [Doom Emacs](https://github.com/hlissner/doom-emacs)
+- [StackOverflow Podcast: What does it mean to be a Senior Software Engineer?](https://stackoverflow.blog/2021/01/19/podcast-305-what-does-it-mean-to-be-a-senior-software-engineer)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
