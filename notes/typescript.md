@@ -1,3 +1,6 @@
+Uses `.tsx`extension
+`.tsconfig` - Configuration File [Example tsconfig](../tsconfig.example.md)
+
 ### Benefits
 Strong typing
 OOP Features
