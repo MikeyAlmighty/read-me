@@ -167,6 +167,10 @@
 # February
 - [Doom Emacs](https://github.com/hlissner/doom-emacs)
 - [StackOverflow Podcast: What does it mean to be a Senior Software Engineer?](https://stackoverflow.blog/2021/01/19/podcast-305-what-does-it-mean-to-be-a-senior-software-engineer)
+- [Remote Desktop History](https://tedium.co/2021/02/12/remote-desktop-access-history/)
+- [Hacker posions Florida Water](https://www.vice.com/en/article/88ab33/hacker-poison-florida-water-pinellas-county)
+- [Florida Water Treatment Plant Hack](https://www.theverge.com/2021/2/10/22277300/florida-water-treatment-chemical-tamper-teamviewer-shared-password)
+- [Block, Inline, and Inline-Block explained](https://www.youtube.com/watch?v=x_i2gga-sYg) 
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
