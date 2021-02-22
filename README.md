@@ -171,6 +171,7 @@
 - [Hacker posions Florida Water](https://www.vice.com/en/article/88ab33/hacker-poison-florida-water-pinellas-county)
 - [Florida Water Treatment Plant Hack](https://www.theverge.com/2021/2/10/22277300/florida-water-treatment-chemical-tamper-teamviewer-shared-password)
 - [Block, Inline, and Inline-Block explained](https://www.youtube.com/watch?v=x_i2gga-sYg) 
+- [I followed my dreams and got demoted to Software Developer](https://stackoverflow.blog/2021/02/08/moving-from-designer-to-developer-stack-overflow) 
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
