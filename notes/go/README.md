@@ -83,3 +83,48 @@ or If we already know what values for variables should be:
 ``` go
 quote, fact := 'Bears, Beets, BattleStar Galactica', true
 ```
+
+#### Printf
+
+``` go
+luckyNumber :=  420 
+fmt.Printf("Your number is:%v", luckyNumber)
+```
+`The %v portion is our placeholder and is known as a verb in Go. Verbs are identified by the combination of a % character followed by a letter.`
+
+**General Verbs:**
+
+``` go
+
+%v	the value in a default format.
+	When printing structs, the plus flag (%+v) adds field names
+%#v	a Go-syntax representation of the value
+%T	a Go-syntax representation of the type of the value
+%%	a literal percent sign; consumes no value
+
+%d interpolate number into a string.
+%f interpolate float into a string. (%.fx precision, x being any positive integer)
+```
+
+#### Sprintln, Sprint and Sprintf
+
+Returns a value that can be stored in a variable and then printed out, i.e:
+
+``` go
+name := "Wade"
+surname := "Wilson"
+identity := fmt.Sprintln(name,surname)
+fmt.Print(identity)
+```
+
+#### Scan
+User input
+
+``` go
+var movie string
+fmt.Println("What is your favorite movie?")
+fmt.Scan(&movie)
+fmt.Printf("I also like ", movie)
+```
+
+fmt.Scan() expects addresses for arguments, hence the `&` 

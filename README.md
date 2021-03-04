@@ -174,6 +174,9 @@
 - [I followed my dreams and got demoted to Software Developer](https://stackoverflow.blog/2021/02/08/moving-from-designer-to-developer-stack-overflow) 
 - [The pros and cons of being a software engineer at a BIG tech company](https://stackoverflow.blog/2021/02/17/the-pros-and-cons-of-being-a-software-engineer-at-a-big-tech-company)
 
+# March
+- [How TypeScript helps you build better React apps](https://felixgerschau.com/react-typescript)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
