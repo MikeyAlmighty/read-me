@@ -106,6 +106,60 @@ fmt.Printf("Your number is:%v", luckyNumber)
 %f interpolate float into a string. (%.fx precision, x being any positive integer)
 ```
 
+
+#### Conditionals
+
+if
+``` go
+if (healthy) {
+  fmt.Println("Work.")
+}
+if sick {
+  fmt.Println("Stay home.")
+}
+```
+
+if-else
+``` go
+if (healthy) {
+  fmt.Println("Work.")
+}
+else sick {
+  fmt.Println("Stay home.")
+}
+```
+
+switch
+``` go
+day := "Tuesday"
+switch day {
+  case "Monday":
+    fmt.Println("Monday is magnificent.")
+  case "Tuesday":
+    fmt.Println("Tuesday is terrific.")
+  case "Wednesday":
+    fmt.Println("Wednesday is wacky.")
+  default:
+    fmt.Println("We survived.")
+}
+```
+
+Short Variable declaration
+(Only available in function scope)
+
+``` go
+if age := 55; age >= 55 {
+  fmt.Println("You are retiring!")
+}
+switch season := "spring"; season {
+  case "spring":
+    fmt.Println("Plant some bulbs.")
+  case "summer":
+    ...
+}
+```
+
+
 #### Sprintln, Sprint and Sprintf
 
 Returns a value that can be stored in a variable and then printed out, i.e:
