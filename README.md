@@ -177,6 +177,9 @@
 # March
 - [How TypeScript helps you build better React apps](https://felixgerschau.com/react-typescript)
 
+# April
+- [React Hook Form Migrate v6 to v7](https://react-hook-form.com/migrate-v6-to-v7/)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
