@@ -180,6 +180,8 @@
 # April
 - [React Hook Form Migrate v6 to v7](https://react-hook-form.com/migrate-v6-to-v7/)
 - [Use Console.log Like A Pro](https://markodenic.com/use-console-log-like-a-pro/)
+- [What are Progressive Web Apps](https://www.freecodecamp.org/news/what-are-progressive-web-apps/)
+- [Buffer Overflow Attacks](https://www.freecodecamp.org/news/buffer-overflow-attacks/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
