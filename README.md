@@ -179,6 +179,7 @@
 
 # April
 - [React Hook Form Migrate v6 to v7](https://react-hook-form.com/migrate-v6-to-v7/)
+- [Use Console.log Like A Pro](https://markodenic.com/use-console-log-like-a-pro/)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
