@@ -183,6 +183,11 @@
 - [What are Progressive Web Apps](https://www.freecodecamp.org/news/what-are-progressive-web-apps/)
 - [Buffer Overflow Attacks](https://www.freecodecamp.org/news/buffer-overflow-attacks/)
 
+# May
+
+# June
+- [Introduction to Free Software and the Liberation of Cyberspace](https://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
@@ -194,6 +199,7 @@
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
 - [Algorithms](notes/Algorithms/README.md)
 - [JS Prototypes 101](notes/js/prototypes.js)
+- [Free Software](notes/free-software.md)
 
 ## Books
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
