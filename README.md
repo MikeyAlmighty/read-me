@@ -187,6 +187,8 @@
 
 # June
 - [Introduction to Free Software and the Liberation of Cyberspace](https://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society)
+- [Kubernetes Architecture Simplified](https://www.youtube.com/watch?v=8C_SCDbUJTg)
+- [How the kubernetes Scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
 
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
