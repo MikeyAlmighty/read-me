@@ -204,7 +204,7 @@
 - [Cargo Introduction](notes/rust/cargo-intro.md)
 - [Data Structures](notes/data-structures/collections.md)
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
-- [Algorithms](notes/Algorithms/README.md)
+- [Algorithms](notes/algorithms/README.md)
 - [JS Prototypes 101](notes/js/prototypes.js)
 - [Free Software](notes/free-software.md)
 
