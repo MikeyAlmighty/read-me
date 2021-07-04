@@ -33,6 +33,7 @@ Features kubernetes provide:
 - Batch execution
   - Kubernetes supports batch execution, long-running jobs, and replaces failed containers.
 
+## 1. Master node
 
 The **master node** provides a running environment for the **control plane** responsible for managing the state of a Kubernetes cluster, and it is the brain behind all operations inside the cluster.
 
@@ -60,7 +61,7 @@ Runs:
 - API Server
 - Scheduler
 - Controller Managers
-- Data Store.
+- Data Store
 
 In addition also runs:
 - Container runtime
@@ -68,9 +69,116 @@ In addition also runs:
 - Proxy
 
 
-## API Server
+### API Server
 
 All the **administrative tasks** are coordinated by the `kube-apiserver`, a central control plane component running on the master node.
 During processing the API Server reads the Kubernetes cluster's current state from the etcd data store, and after a call's execution, the resulting state of the Kubernetes cluster is saved in the distributed key-value data store for persistence. The API Server is the only master plane component to talk to the etcd data store, both to read from and to save Kubernetes cluster state information - acting as a middle interface for any other control plane agent inquiring about the cluster's state.
 
-## Scheduler
+### Scheduler
+**kube-scheduler** is to assign new workload objects, such as pods, to nodes.
+During the scheduling process, decisions are made based on current Kubernetes cluster state and new object's requirements.
+The scheduler obtains data from the etcd data store - via the API Server- resource usage data for each worker node in the cluster.
+The scheduler also receives from the API Server the new object's requirements which are part of its configuration data.
+
+Constraints:
+1. Predicates = Hard requirements, like 4Gb of memory.
+2. Priorities = Soft requirements, like prefer spreading.
+
+When a new pod is not yet assigned a node:
+The scheduler takes into account Quality of Service (QoS) requirements, data locality, affinity, anti-affinity, taints, toleration, cluster topology, etc. 
+Once all the cluster data is available, the scheduling algorithm **filters the nodes with predicates** to isolate the possible node candidates which **then are scored with priorities** in order to select the one node that satisfies all the requirements for hosting the new workload. The outcome of the decision process is communicated back to the API Server, which then delegates the workload deployment with other control plane agents. 
+
+Scoring: Filter by predicate then scored by priority.
+
+### Controller Manager
+Regulates the state of the Kubernetes cluster.
+Controllers are watch-loops continuously running and comparing the cluster's **desired state** (provided by objects' configuration data) with its **current state** (obtained from etcd data store via the API server).
+In case of a mismatch corrective action is taken in the cluster **until its current state matches the desired state.**
+
+#### Controllers:
+
+- **kube-controller-manager**: Runs controllers responsible to act when nodes become unavailable, to ensure pod counts are as expected, to create endpoints, service accounts, and API access tokens.
+- **cloud-controller-manager**: Runs controllers responsible to interact with the underlying infrastructure of a cloud provider when nodes become unavailable, to manage storage volumes when provided by a cloud service, and to manage load balancing and routing.
+
+### Data Store (etcd)
+`etcd` is a **strongly consistent**, **distributed** key-value data store used to persist a Kubernetes cluster's state.
+New data is written to the data store only by appending to it, data is never replaced in the data store. 
+Obsolete data is compacted periodically to minimize the size of the data store.
+
+Out of all the control plane components, **only the API Server is able to communicate with the etcd data store**.
+
+etcd's CLI management tool - `etcdctl`, provides `backup`, `snapshot`, and `restore capabilities` which come in handy especially for a single etcd instance Kubernetes cluster - common in Development and learning environments. However, in Stage and Production environments, it is extremely important to replicate the data stores in HA mode, for cluster configuration data resiliency.
+
+Some Kubernetes cluster bootstrapping tools, such as **kubeadm**, by default, provision `stacked` etcd master
+nodes, where the **data store runs alongside and shares resources with the other control plane 
+components on the same master node**.
+
+For data store isolation from the control plane components, the bootstrapping process can be configured for an `external` etcd topology, where the data store is **provisioned on a dedicated separate host**, thus **reducing** the chances of an etcd failure.
+
+- Both stacked and external etcd configurations support HA configurations!
+
+etcd is based on the **Raft Consensus Algorithm** which allows a collection of machines to work as a coherent group that can survive the failures of some of its members.
+
+In Kubernetes, besides storing the cluster state, etcd is also used to store configuration details such as subnets, ConfigMaps, Secrets, etc.
+
+
+## 2. Worker node
+A worker node provides a **running environment for client applications**. 
+Though containerized microservices, these applications are encapsulated in Pods,
+**controlled** by the **cluster control plane agents running on the master node**.
+
+Pods are **scheduled** on worker nodes, where they find required compute, `memory and storage resources` to run and `networking` to talk to each other and the outside world.
+A **Pod** is the `smallest scheduling unit` in Kubernetes.
+It is a logical collection of `one or more containers scheduled together`, and the **collection** can be `started, stopped, or rescheduled` as a **single unit** of work. 
+
+**worker node** components:
+
+- Container Runtime
+- Node Agent - kubelet
+- Proxy - kube-proxy
+- Addons for DNS, Dashboard user interface, cluster-level monitoring and logging.
+
+### Container Runtime
+In order to manage a container's lifecycle, Kubernetes requires a **container runtime** on the `node where a Pod and its containers are to be scheduled`. 
+
+Example container Runtimes:
+- Docker - although a container platform which uses **containerd** as a container runtime, it is the most popular container runtime used with Kubernetes
+- CRI-O - a lightweight container runtime for Kubernetes, it also supports Docker image registries
+- containerd - a simple and portable container runtime providing robustness
+- frakti - a hypervisor-based container runtime for Kubernetes
+
+### Node Agent - kubelet
+The kubelet is an agent running on **each** node and **communicates with the control plane components from the master node.**
+It receives Pod **definitions**, `primarily from the API Server`, and interacts with the **container runtime** on the node to **run containers associated with the Pod**.
+It also **monitors** the **health and resources** of Pods running containers.
+
+The kubelet **connects to container runtimes** though a plugin based interface - the **Container Runtime Interface (CRI)**. The CRI consists of protocol buffers, gRPC API, libraries, and additional specifications and tools that are currently under development. In order to connect to interchangeable container runtimes, kubelet uses a shim application which provides a clear abstraction layer between kubelet and the container runtime. 
+
+kubelet uses a **shim** application which provides a clear **abstraction layer** between **kubelet** and the **container runtime**. 
+
+The CRI implements two services:
+
+- **ImageService** Responsible for all the image-related operations.
+- **RuntimeService** Responsible for all the Pod and container-related operations.
+
+Container runtimes used to be hard-coded into kubelet, but since the CRI was introduced, Kubernetes has become more flexible to use different container runtimes without the need to recompile. Any container runtime that implements the `CRI` can be used by Kubernetes to manage **Pods**, **containers**, and **container images**.
+
+**Shims** are CRI implementations, or interfaces, specific to each container runtime supported by Kubernetes. 
+Examples:
+
+- DockerShim: Containers are created using `Docker` installed on the worker nodes. Internally, Docker uses containerd to create and manage containers:
+- cri-containerd: With `cri-containerd`, we can **directly** use containerd to create and manage containers:
+
+### Proxy - kube-proxy 
+The `kube-proxy` is the network agent which runs on each node responsible for `dynamic updates` and `maintenance of all networking rules on the node`.
+It **abstracts the details of Pods networking** and **forwards connection requests to Pods**. 
+
+Responsible for **TCP**, **UDP**, and **SCTP stream** `forwarding` or `round-robin forwarding` across a set of Pod backends, and it implements **forwarding rules** `defined by users through Service API objects`.
+
+### Addons
+Addons are cluster features and functionality _not yet available in Kubernetes_, therefore implemented through 3rd-party pods and services.
+
+- **DNS** - cluster DNS is a DNS server required to assign DNS records to Kubernetes objects and resources
+- **Dashboard** - a general purposed web-based user interface for cluster management
+- **Monitoring** - collects cluster-level container metrics and saves them to a central data store
+- **Logging** - collects cluster-level container logs and saves them to a central log store for analysis.

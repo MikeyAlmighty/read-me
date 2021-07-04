@@ -190,6 +190,11 @@
 - [Kubernetes Architecture Simplified](https://www.youtube.com/watch?v=8C_SCDbUJTg)
 - [How the kubernetes Scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
 
+# July
+- [Understanding Kubernetes, Part 1: etcd clusters and key/value stores](https://www.youtube.com/watch?v=CuWSY_fwV6M)
+- [Understanding Kubernetes, Part 2: The Scheduler](https://www.youtube.com/watch?v=E3ExWruji7g)
+- [Understanding Kubernetes, Part 3: Master + API servers](https://www.youtube.com/watch?v=BrtvGHwyza0)
+
 ## Notes
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
