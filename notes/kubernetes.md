@@ -176,9 +176,58 @@ It **abstracts the details of Pods networking** and **forwards connection reques
 Responsible for **TCP**, **UDP**, and **SCTP stream** `forwarding` or `round-robin forwarding` across a set of Pod backends, and it implements **forwarding rules** `defined by users through Service API objects`.
 
 ### Addons
-Addons are cluster features and functionality _not yet available in Kubernetes_, therefore implemented through 3rd-party pods and services.
+Addons are cluster features and functionality _not yet available in Kubernetes_, therefore implemented through **3rd-party pods and services**.
 
 - **DNS** - cluster DNS is a DNS server required to assign DNS records to Kubernetes objects and resources
 - **Dashboard** - a general purposed web-based user interface for cluster management
 - **Monitoring** - collects cluster-level container metrics and saves them to a central data store
 - **Logging** - collects cluster-level container logs and saves them to a central log store for analysis.
+
+### Networking issues
+
+Decoupled microservices based applications rely heavily on **networking** in order to mimic `the tight-coupling once available in the monolithic era`.
+As a containerized microservices orchestrator it needs to address a few distinct networking challenges:
+
+- Container-to-container communication inside Pods.
+- Pod-to-Pod communication on the same node and across cluster nodes.
+- Pod-to-Service communication within the same namespace and across cluster namespaces.
+- External-to-Service communication for clients to access applications in a cluster.
+
+All these networking challenges must be addressed before deploying a Kubernetes cluster.
+
+### Container-to-Container Communication inside pods 
+Making use of the `underlying host operating system's kernel virtualization` features, a **container runtime** creates an `isolated network space for each container` it starts.
+On Linux, this isolated network space is referred to as a **network namespace.** 
+A network namespace can be shared across containers, or with the host operating system.
+
+When a `Pod is started`, a special **Pause** container is initialized by the **Container Runtime** for the sole purpose to create a **network namespace** for the Pod.
+i.e:
+
+- **Pause container** => create network namespace for the pod.
+
+All additional containers - created through user requests - running inside the Pod will `share the Pause container's network namespace` so that they can all talk to each other via localhost.
+
+### Pod-to-Pod Communication Across Nodes
+
+
+The Kubernetes network model aims to reduce complexity, and it treats Pods as **VMs** on a network,
+where each VM is equipped with a **network interface** - thus **each Pod receiving a unique IP address**.
+This model is called **"IP-per-Pod" and ensures Pod-to-Pod communication**, just as VMs are able to communicate with each other on the same network.
+
+**Containers** share the **Pod's network namespace** and must coordinate ports assignment inside the Pod just as applications would on a VM,
+all while being able to **communicate with each other on localhost - inside the Pod**. 
+
+**Containers** are `integrated with the overall Kubernetes networking model` through the use of the **Container Network Interface (CNI)** supported by **CNI plugins**.
+
+> CNI is a set of a specification and libraries which allow plugins to configure the networking for containers.
+
+While there are a few core plugins, most **CNI plugins** are `3rd-party Software Defined Networking (SDN)` solutions implementing the **Kubernetes networking model**.
+
+The **container runtime** offloads the `IP assignment` to **CNI**, which connects to the underlying **configured plugin**, such as `Bridge` or `MACvlan` to get the IP address.
+
+Once the IP address is given by the respective plugin, CNI forwards it back to the requested **container runtime**. 
+
+### Pod-to-External World communication
+Kubernetes enables external accessibility through **Services**, `complex encapsulations of network routing rule definitions` **stored in iptables** on **cluster nodes** and implemented by **kube-proxy agents**.
+
+By exposing services to the external world with the aid of kube-proxy, applications become accessible from outside the cluster over a virtual IP address.
