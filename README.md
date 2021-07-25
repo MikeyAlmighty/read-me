@@ -2,7 +2,9 @@
 <summary>2020</summary>
 
 # March
+
 ## Articles
+
 - [Building Secure React Applications](https://www.youtube.com/watch?v=O91hJJ5KMLs)
 - [British Airways Hack Details](https://www.wired.com/story/british-airways-hack-details/)
 - [Magecart British Airways Breach](https://www.riskiq.com/blog/labs/magecart-british-airways-breach/)
@@ -11,7 +13,9 @@
 - [Nomics CryptoCurrency & Bitcoin API](http://docs.nomics.com/)
 
 # April
+
 ## Articles
+
 - [WebAIM WCAG checklist](https://webaim.org/standards/wcag/checklist#understandable)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Flutter](https://flutter.dev/)
@@ -20,10 +24,13 @@
 - [Quick and easy guide to Tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
 ## Course Work
-- [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891) 
+
+- [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
 
 # May
+
 ## Articles
+
 - [How does Terraria handle thousands of tiles?](https://www.youtube.com/watch?v=YIDbhVPHZbs)
 - [How does procedural generation work?](https://www.youtube.com/watch?v=-POwgollFeY)
 - [Computer, build me an App](https://www.youtube.com/watch?v=qqt6YxAZoOc)
@@ -39,7 +46,9 @@
 - [Efficient Application scaling? Serverless!](https://stackoverflow.blog/2020/05/18/you-want-efficient-application-scaling-go-serverless/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
 
 # June
+
 ## Articles
+
 - [Data fetching with getServerSideProps](https://www.youtube.com/watch?v=61TngxLrP_0)
 - [Static is the new Dynamic (Static Site Generation)](https://rauchg.com/2020/2019-in-review#static-is-the-new-dynamic)
 - [Next.js 9.3 Data fetching (getServerSideProps)](https://www.youtube.com/watch?v=QABkof8ygzI)
@@ -64,7 +73,9 @@
 - [Ultimate vim TypeScript setup](https://pragmaticpineapple.com/ultimate-vim-typescript-setup/)
 
 # July
+
 ## Articles
+
 - [Uncle Bob Functional programming: What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
 - [Go is Boring...And That's Fantastic](https://www.capitalone.com/tech/software-engineering/go-is-boring/?external_id=CARD_CMEM)
 - [NextJS ServerSide Rendering vs StaticGeneration](https://vercel.com/blog/nextjs-server-side-rendering-vs-static-generation)
@@ -89,7 +100,9 @@
 - [Features that made an impact and a look into the future (Part:2)](https://stackoverflow.blog/2020/07/30/java-at-25-features-that-made-an-impact-and-a-look-to-the-future)
 
 # August
+
 ## Articles
+
 - [Few of our favorite hacks](https://stackoverflow.blog/2020/08/04/podcast-257-a-few-of-our-favorite-haxx)
 - [Keep the Footer at the bottom Flexbox vs Grid](https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/)
 - [Optimizing CSS for faster page loads](https://pustelto.com/blog/optimizing-css-for-faster-page-loads)
@@ -99,7 +112,9 @@
 - [Svelte: Frameworks with the Framework](https://svelte.dev/blog/frameworks-without-the-framework)
 
 # September
+
 ## Articles
+
 - [TypeScript for React](https://www.youtube.com/watch?v=NjN00cM18Z4)
 - [React TypeScript Tutorial](https://www.youtube.com/watch?v=0_C2X1yRRac)
 - [Prettier Setup](https://prettier.io/docs/en/install.html)
@@ -113,7 +128,9 @@
 - [Avoiding Burnout As An Ambitious Developer](https://stackoverflow.blog/2020/01/13/avoiding-burnout-as-an-ambitious-developer/)
 
 # October
+
 ## Articles
+
 - [If Everyone Hates it Why Is OOP Still So Widely Spread](https://stackoverflow.blog/2020/09/02/if-everyone-hates-it-why-is-oop-still-so-widely-spread)
 - [Play The long Game When Learning To Code](https://stackoverflow.blog/2020/10/05/play-the-long-game-when-learning-to-code)
 - [Where Do Game Developers Fit In The World Of Software](https://the-stack-overflow-podcast.simplecast.com/episodes/where-do-game-developers-fit-in-the-world-of-software)
@@ -122,7 +139,9 @@
 - [The Generic Dilemma](https://research.swtch.com/generic)
 
 # December
+
 ## Articles
+
 - [Podcast 287: How do you make software reliable enough for space travel](https://stackoverflow.blog/2020/11/17/podcast-287-how-do-you-make-software-reliable-enough-for-space-travel)
 - [What's so great about Go?](https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages)
 - [The Power of 10: Rules for Developing Safety-Critical Code](https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code)
@@ -143,7 +162,9 @@
 <summary>2021</summary>
 
 # January
+
 ## Articles
+
 - [Rust: The Prelude](https://doc.rust-lang.org/std/prelude/index.html)
 - [Different between 32bit and 64bit System](https://techterms.com/help/difference_between_32-bit_and_64-bit_systems)
 - [JS Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA)
@@ -165,19 +186,22 @@
 </details>
 
 # February
+
 - [Doom Emacs](https://github.com/hlissner/doom-emacs)
 - [StackOverflow Podcast: What does it mean to be a Senior Software Engineer?](https://stackoverflow.blog/2021/01/19/podcast-305-what-does-it-mean-to-be-a-senior-software-engineer)
 - [Remote Desktop History](https://tedium.co/2021/02/12/remote-desktop-access-history/)
 - [Hacker posions Florida Water](https://www.vice.com/en/article/88ab33/hacker-poison-florida-water-pinellas-county)
 - [Florida Water Treatment Plant Hack](https://www.theverge.com/2021/2/10/22277300/florida-water-treatment-chemical-tamper-teamviewer-shared-password)
-- [Block, Inline, and Inline-Block explained](https://www.youtube.com/watch?v=x_i2gga-sYg) 
-- [I followed my dreams and got demoted to Software Developer](https://stackoverflow.blog/2021/02/08/moving-from-designer-to-developer-stack-overflow) 
+- [Block, Inline, and Inline-Block explained](https://www.youtube.com/watch?v=x_i2gga-sYg)
+- [I followed my dreams and got demoted to Software Developer](https://stackoverflow.blog/2021/02/08/moving-from-designer-to-developer-stack-overflow)
 - [The pros and cons of being a software engineer at a BIG tech company](https://stackoverflow.blog/2021/02/17/the-pros-and-cons-of-being-a-software-engineer-at-a-big-tech-company)
 
 # March
+
 - [How TypeScript helps you build better React apps](https://felixgerschau.com/react-typescript)
 
 # April
+
 - [React Hook Form Migrate v6 to v7](https://react-hook-form.com/migrate-v6-to-v7/)
 - [Use Console.log Like A Pro](https://markodenic.com/use-console-log-like-a-pro/)
 - [What are Progressive Web Apps](https://www.freecodecamp.org/news/what-are-progressive-web-apps/)
@@ -186,16 +210,27 @@
 # May
 
 # June
+
 - [Introduction to Free Software and the Liberation of Cyberspace](https://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society)
 - [Kubernetes Architecture Simplified](https://www.youtube.com/watch?v=8C_SCDbUJTg)
 - [How the kubernetes Scheduler works](https://www.youtube.com/watch?v=rDCWxkvPlAw)
 
 # July
+
 - [Understanding Kubernetes, Part 1: etcd clusters and key/value stores](https://www.youtube.com/watch?v=CuWSY_fwV6M)
 - [Understanding Kubernetes, Part 2: The Scheduler](https://www.youtube.com/watch?v=E3ExWruji7g)
 - [Understanding Kubernetes, Part 3: Master + API servers](https://www.youtube.com/watch?v=BrtvGHwyza0)
+- [A deep dive into natural language processing and speech to text systems](https://stackoverflow.blog/2021/06/23/podcast-350-natural-language-processing-speech-to-text-rev-ai/)
+- [How to Implement Debounce and Throttle with JavaScript](https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783)
+- [What's Old Is Ncw](https://css-tricks.com/whats-old-is-new/)
+- [Falling into the pit of Success](https://blog.codinghorror.com/falling-into-the-pit-of-success/)
+- [Rehydration](https://addyosmani.com/blog/rehydration/)
+- [The Problem with C++](https://blog.codinghorror.com/the-problem-with-c/)
+- [When a Click Is Not Just a Click](https://css-tricks.com/when-a-click-is-not-just-a-click/)
+- [Automate formatting and fixing JavaScript code with Prettier and ESLint](https://blog.logrocket.com/automate-formatting-and-fixing-javascript-code-with-prettier-and-eslint/)
 
 ## Notes
+
 - [Concurrency VS Parallelism](notes/concurrency.md)
 - [Tony Hoare's Laws of Programming with Concurrency](notes/concurrency-ext.md)
 - [Typescript Tutorial - Typescript for React](notes/typescript.md)
@@ -209,6 +244,9 @@
 - [Free Software](notes/free-software.md)
 
 ## Books
+
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 - [The C Programming Language aka The Bible](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 - [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
+
+## [Quotes](notes/quotes.md)
