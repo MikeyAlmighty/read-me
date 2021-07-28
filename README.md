@@ -222,12 +222,17 @@
 - [Understanding Kubernetes, Part 3: Master + API servers](https://www.youtube.com/watch?v=BrtvGHwyza0)
 - [A deep dive into natural language processing and speech to text systems](https://stackoverflow.blog/2021/06/23/podcast-350-natural-language-processing-speech-to-text-rev-ai/)
 - [How to Implement Debounce and Throttle with JavaScript](https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783)
-- [What's Old Is Ncw](https://css-tricks.com/whats-old-is-new/)
+- [What's Old Is New](https://css-tricks.com/whats-old-is-new/)
 - [Falling into the pit of Success](https://blog.codinghorror.com/falling-into-the-pit-of-success/)
 - [Rehydration](https://addyosmani.com/blog/rehydration/)
 - [The Problem with C++](https://blog.codinghorror.com/the-problem-with-c/)
 - [When a Click Is Not Just a Click](https://css-tricks.com/when-a-click-is-not-just-a-click/)
 - [Automate formatting and fixing JavaScript code with Prettier and ESLint](https://blog.logrocket.com/automate-formatting-and-fixing-javascript-code-with-prettier-and-eslint/)
+- [How To Make Prettier Work With ESLint](https://www.robinwieruch.de/prettier-eslint)
+- [ESLint Rules](https://eslint.org/docs/rules)
+- [Prettier CLI Docs](https://prettier.io/docs/en/cli.html)
+- [10 Ways to Minimize Rewflows and Improve Performance](https://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
+- [What's New In React 18](https://dev.to/shrutikapoor08/what-s-new-in-react-18-1713)
 
 ## Notes
 
