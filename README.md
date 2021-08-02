@@ -206,8 +206,8 @@
 - [Use Console.log Like A Pro](https://markodenic.com/use-console-log-like-a-pro/)
 - [What are Progressive Web Apps](https://www.freecodecamp.org/news/what-are-progressive-web-apps/)
 - [Buffer Overflow Attacks](https://www.freecodecamp.org/news/buffer-overflow-attacks/)
-
-# May
+- [GitHub Actions - Supercharge your GitHub Flow](https://www.youtube.com/watch?v=cP0I9w2coGU)
+- [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions)
 
 # June
 
@@ -233,6 +233,9 @@
 - [Prettier CLI Docs](https://prettier.io/docs/en/cli.html)
 - [10 Ways to Minimize Rewflows and Improve Performance](https://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
 - [What's New In React 18](https://dev.to/shrutikapoor08/what-s-new-in-react-18-1713)
+
+# August
+- [KeyboardEvents: Keys vs Codes](https://developers.google.com/web/updates/2016/04/keyboardevent-keys-codes)
 
 ## Notes
 
