@@ -236,6 +236,7 @@
 
 # August
 - [KeyboardEvents: Keys vs Codes](https://developers.google.com/web/updates/2016/04/keyboardevent-keys-codes)
+- [The Breakpoint Ep. 8: Memory Profiling with Chrome DevTools](https://www.youtube.com/watch?v=L3ugr9BJqIs)
 
 ## Notes
 
