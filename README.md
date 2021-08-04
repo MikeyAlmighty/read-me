@@ -237,6 +237,10 @@
 # August
 - [KeyboardEvents: Keys vs Codes](https://developers.google.com/web/updates/2016/04/keyboardevent-keys-codes)
 - [The Breakpoint Ep. 8: Memory Profiling with Chrome DevTools](https://www.youtube.com/watch?v=L3ugr9BJqIs)
+- [Cumalitve Layout Shift (CLS)](https://web.dev/cls/)
+- [Flash Of Unstyled Content (FOUC)](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
+- [Getting Started With Org Mode](https://www.youtube.com/watch?v=SzA2YODtgK4)
+- [How I Fixed My First Memory Leak in Next.js](https://alberic.trancart.net/2020/05/how-fixed-first-memory-leak-nextjs-nodejs/)
 
 ## Notes
 
