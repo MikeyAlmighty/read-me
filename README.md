@@ -241,6 +241,7 @@
 - [Flash Of Unstyled Content (FOUC)](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
 - [Getting Started With Org Mode](https://www.youtube.com/watch?v=SzA2YODtgK4)
 - [How I Fixed My First Memory Leak in Next.js](https://alberic.trancart.net/2020/05/how-fixed-first-memory-leak-nextjs-nodejs/)
+- [What Is A Diamond Dependency Conflict](https://jlbp.dev/what-is-a-diamond-dependency-conflict)
 
 ## Notes
 
@@ -255,6 +256,7 @@
 - [Algorithms](notes/algorithms/README.md)
 - [JS Prototypes 101](notes/js/prototypes.js)
 - [Free Software](notes/free-software.md)
+- [Diamond Dependency Conflict](notes/diamond-dependency.org)
 
 ## Books
 
