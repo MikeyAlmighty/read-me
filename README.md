@@ -242,6 +242,8 @@
 - [Getting Started With Org Mode](https://www.youtube.com/watch?v=SzA2YODtgK4)
 - [How I Fixed My First Memory Leak in Next.js](https://alberic.trancart.net/2020/05/how-fixed-first-memory-leak-nextjs-nodejs/)
 - [What Is A Diamond Dependency Conflict](https://jlbp.dev/what-is-a-diamond-dependency-conflict)
+- [Linked Lists - Computerphile](https://www.youtube.com/watch?v=_jQhALI4ujg)
+- [Implementing a LinkedList in JavaScript](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 
 ## Notes
 
@@ -251,7 +253,7 @@
 - [Rules for Developing Safety-Critical Code](notes/rules-for-developing-safety-critical-code.md)
 - [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
 - [Cargo Introduction](notes/rust/cargo-intro.md)
-- [Data Structures](notes/data-structures/collections.md)
+- [LinkedLists](notes/data-structures/linked-list.org)
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
 - [Algorithms](notes/algorithms/README.md)
 - [JS Prototypes 101](notes/js/prototypes.js)

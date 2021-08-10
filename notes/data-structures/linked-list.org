@@ -1,0 +1,92 @@
+#+TITLE: Linked List
+#+OPTIONS: toc:nil
+Head = first Element (Starts with null)
+Tail = last Element (Points to null)
+
+Accessing elements is not in constant time(Have to follow links through the list).
+Inserting at middle of the list: Create new node, break link, update references.
+
+Insertion/Deletion however is constant time.
+
+|           | Array                           | Linked List                                                                 |
+|-----------+---------------------------------+-----------------------------------------------------------------------------|
+| Strengths | Random Access (Fast Search).    | Fast Insertion/Deletion time.                                               |
+|           | Less memory needed per element. | Dynamic Size.                                                               |
+|           | Better cache locality           | Efficient memory allocation/utilization                                     |
+|-----------+---------------------------------+-----------------------------------------------------------------------------|
+| Weakness  | Slow Insertion/Deletion time    | Slow Search Time                                                            |
+|           | Fixed size                      | More memory needed per node as additional storage is required for pointers. |
+|           |                                 |                                                                             |
+
+
+#+begin_src js
+class ListNode {
+    constructor(data){
+        this.data = data
+        this.next = null // Pointer to next node
+    }
+}
+
+class LinkedList {
+    // If no head is passed, head is initialized to null
+    constructor(head = null) {
+       this.head = head
+    }
+
+    // Number of Nodes
+    size() {
+        let count = 0
+        let node = this.head
+
+        while(node){
+            count++
+            node = node.next
+        }
+        return count
+    }
+
+    // Empties the list
+    clear() {
+        this.head = null
+    }
+
+   // Retrieves Last Node
+    getLast() {
+       let lastNode = this.head
+        if (lastNode) {
+            while(lastNode.next){
+                lastNode = lastNode.next
+            }
+        }
+        return lastNode
+    }
+
+   // Retrieves First Node
+    getFirst() {
+        return this.head
+    }
+}
+
+
+const node1 = new ListNode(2)
+const node2 = new ListNode(5)
+node1.next = node2
+
+const llist = new LinkedList(node1)
+console.log(llist.head.next.data) // returns 5
+
+#+end_src
+
+#+RESULTS:
+: 5
+: undefined
+
+* Types of Linked Lists
+There are three types of linked lists:
+
+** Singly Linked Lists:
+Each node contains only one pointer to the next node. This is what we have been talking about so far.
+** Doubly Linked Lists:
+Each node contains two pointers, a pointer to the next node and a pointer to the previous node.
+** Circular Linked Lists:
+Circular linked lists are a variation of a linked list in which the last node points to the first node or any other node before it, thereby forming a loop.
