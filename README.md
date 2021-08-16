@@ -22,6 +22,7 @@
 - [Dart programming tutorial](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
 - [Navigate ES6 Projects with Vim ctags](https://medium.com/trabe/navigate-es6-projects-with-vim-using-ctags-948d114b94f3)
 - [Quick and easy guide to Tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+- [I just love VSCode](https://www.youtube.com/watch?v=Z71OyekaSQ8)
 
 ## Course Work
 
@@ -244,6 +245,7 @@
 - [What Is A Diamond Dependency Conflict](https://jlbp.dev/what-is-a-diamond-dependency-conflict)
 - [Linked Lists - Computerphile](https://www.youtube.com/watch?v=_jQhALI4ujg)
 - [Implementing a LinkedList in JavaScript](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
+- [Data structures: Introduction to stack](https://www.youtube.com/watch?v=F1F2imiOJfk)
 
 ## Notes
 
@@ -254,6 +256,8 @@
 - [Tips For Finishing Personal Projects](notes/stay-focused-on-personal-projects.md)
 - [Cargo Introduction](notes/rust/cargo-intro.md)
 - [LinkedLists](notes/data-structures/linked-list.org)
+- [Sets](notes/data-structures/sets.org)
+- [Stacks](notes/data-structures/stacks.org)
 - [Intro to ServerSide Events (SSE)](notes/SSE.md)
 - [Algorithms](notes/algorithms/README.md)
 - [JS Prototypes 101](notes/js/prototypes.js)

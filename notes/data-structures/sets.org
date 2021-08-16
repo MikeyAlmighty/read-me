@@ -1,0 +1,18 @@
+#+TITLE: Sets
+#+OPTIONS: toc:nil
+
+Sets = Like lists, except only unique values.
+Considered as unsorted
+Dynamic
+
+If a Set supports:
+
+ - Insert an element
+ - Delete an element
+ - Test a membership (I.e test does there exist a value in the set)
+
+We call them dictionaries.
+
+Operations on a set:
+ - Querying (Giving information about the set)
+ - Modifiying (Changes the element in the set)
