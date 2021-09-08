@@ -236,6 +236,7 @@
 - [What's New In React 18](https://dev.to/shrutikapoor08/what-s-new-in-react-18-1713)
 
 # August
+
 - [KeyboardEvents: Keys vs Codes](https://developers.google.com/web/updates/2016/04/keyboardevent-keys-codes)
 - [The Breakpoint Ep. 8: Memory Profiling with Chrome DevTools](https://www.youtube.com/watch?v=L3ugr9BJqIs)
 - [Cumalitve Layout Shift (CLS)](https://web.dev/cls/)
@@ -246,6 +247,12 @@
 - [Linked Lists - Computerphile](https://www.youtube.com/watch?v=_jQhALI4ujg)
 - [Implementing a LinkedList in JavaScript](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 - [Data structures: Introduction to stack](https://www.youtube.com/watch?v=F1F2imiOJfk)
+- [What is the difference between arrow function and regular function?](https://www.youtube.com/watch?v=E0Pun0iL59c)
+
+# September
+
+- [Hiring Developers: How to avoid the best](https://www.reddit.com/r/programming/comments/pivzeq/hiring_developers_how_to_avoid_the_best)
+- [RBAC vs ABAC](https://frontegg.com/blog/rbac-vs-abac)
 
 ## Notes
 
