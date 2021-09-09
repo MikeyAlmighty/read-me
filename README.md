@@ -253,6 +253,7 @@
 
 - [Hiring Developers: How to avoid the best](https://www.reddit.com/r/programming/comments/pivzeq/hiring_developers_how_to_avoid_the_best)
 - [RBAC vs ABAC](https://frontegg.com/blog/rbac-vs-abac)
+- [React Design Patterns](https://www.uxpin.com/studio/blog/react-design-patterns/)
 
 ## Notes
 
