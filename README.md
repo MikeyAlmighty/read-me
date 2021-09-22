@@ -184,7 +184,6 @@
 - [Front-End 2021 Predictions](https://www.browserlondon.com/blog/2021/01/04/front-end-predictions-2021)
 - [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
 
-</details>
 
 # February
 
@@ -254,6 +253,15 @@
 - [Hiring Developers: How to avoid the best](https://www.reddit.com/r/programming/comments/pivzeq/hiring_developers_how_to_avoid_the_best)
 - [RBAC vs ABAC](https://frontegg.com/blog/rbac-vs-abac)
 - [React Design Patterns](https://www.uxpin.com/studio/blog/react-design-patterns/)
+- [A Guide To React Context](https://dmitripavlutin.com/react-context-and-usecontext)
+- [Switching from React To React Native!](https://medium.com/stackavenue/switching-from-react-js-to-react-native-fcce93066728)
+- [How To Use AVIF images on your Website](https://www.freecodecamp.org/news/how-to-use-avif-images-on-your-website/)
+- [I completely ignored the front end development scene for 6 months. It was fine](https://rachsmith.com/i-completely-ignored-the-front-end-development-scene-for-6-months-it-was-fine/)
+- [Scaling Front-End design With a Design System](https://stackoverflow.blog/2021/09/06/scaling-front-end-design-with-a-design-system/)
+- [Using VIM with React Native](https://betterprogramming.pub/using-vim-with-react-native-2020-77deb4e44348) 
+- [Oso - Baterries included Auth](https://www.osohq.com/)
+
+</details>
 
 ## Notes
 
