@@ -260,6 +260,9 @@
 - [Scaling Front-End design With a Design System](https://stackoverflow.blog/2021/09/06/scaling-front-end-design-with-a-design-system/)
 - [Using VIM with React Native](https://betterprogramming.pub/using-vim-with-react-native-2020-77deb4e44348) 
 - [Oso - Baterries included Auth](https://www.osohq.com/)
+- [StackOverflow podcast 373: Authorization with Oso ](https://stackoverflow.blog/2021/09/08/podcast-373-authorization-is-complex-oso-is-a-library-designed-to-help-you-structure-it/)
+- [Detect inactive users with the Idle Detection API](https://web.dev/idle-detection/)
+- [Google Chrome 94 arrives with controversial Idle Detection API](https://www.techspot.com/news/91390-google-chrome-94-arrives-controversial-idle-detection-api.html)
 
 </details>
 
