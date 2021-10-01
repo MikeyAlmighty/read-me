@@ -263,6 +263,11 @@
 - [StackOverflow podcast 373: Authorization with Oso ](https://stackoverflow.blog/2021/09/08/podcast-373-authorization-is-complex-oso-is-a-library-designed-to-help-you-structure-it/)
 - [Detect inactive users with the Idle Detection API](https://web.dev/idle-detection/)
 - [Google Chrome 94 arrives with controversial Idle Detection API](https://www.techspot.com/news/91390-google-chrome-94-arrives-controversial-idle-detection-api.html)
+- [Mock React job interview (featuring Cassidy Williams)](https://www.youtube.com/watch?v=ZV373VaS4UM)
+
+# October
+
+- [Let's Encrypt Root Expiry](https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry/)
 
 </details>
 
