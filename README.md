@@ -268,6 +268,7 @@
 # October
 
 - [Let's Encrypt Root Expiry](https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry/)
+- [React Native Directory](https://reactnative.directory)
 
 </details>
 
