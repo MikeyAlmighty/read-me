@@ -269,6 +269,13 @@
 
 - [Let's Encrypt Root Expiry](https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry/)
 - [React Native Directory](https://reactnative.directory)
+- [Styled Components - Advanced Next.js](https://styled-components.com/docs/advanced#nextjs)
+- [Bitwise Operators in C (Part 1)](https://www.youtube.com/watch?v=jlQmeyce65Q)
+- [Bitwise Operators in C (Part 2)](https://www.youtube.com/watch?v=8aFik6lPPaA)
+- [Bitwise Operators in C (Part 3)](https://www.youtube.com/watch?v=GhhJP6vpEA8)
+- [What are microservices really all about? - Microservices Basics Tutorial](https://www.youtube.com/watch?v=j1gU2oGFayY)
+- [Session vs Token Authentication in 100 Seconds
+](https://www.youtube.com/watch?v=UBUNrFtufWo)
 
 </details>
 
