@@ -27,6 +27,7 @@ c.right = f;
 //  / \   \
 // d   e   f
 
+
 // class Node {
 //   contructor(val)  {
 //     this.val = vale
@@ -34,6 +35,9 @@ c.right = f;
 //     this.right = null
 //   }
 // }
+
+// Expected Output: [a,b,d,e,c,f]
+// Or: [a,c,f,b,e,d]
 
 // Iterative Solution
 const depthFirstValues = (root) => {
@@ -53,4 +57,12 @@ const depthFirstValues = (root) => {
 }
 
 const res = depthFirstValues(a)
-console.log(res)
+
+// Recursive Solution
+const depthFirstValuesRecursive = (root) => {
+  if (!root) return []
+  const leftValues = depthFirstValuesRecursive(root.left) // [b,d,e]
+  const rightValues = depthFirstValuesRecursive(root.right) // [c,f]
+  return [root.val, ...leftValues, ...rightValues]
+}
+const recursive = depthFirstValuesRecursive(a)
