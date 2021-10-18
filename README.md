@@ -269,6 +269,11 @@
 
 - [Let's Encrypt Root Expiry](https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry/)
 - [React Native Directory](https://reactnative.directory)
+- [Mouseless Development Environment](https://www.smashingmagazine.com/2021/09/mouseless-development-environment/)
+- [It takes a PHD to develop that](https://blog.royalsloth.eu/posts/it-takes-a-phd-to-develop-that/)
+https://www.youtube.com/watch?v=fAAZixBzIAI
+- [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI)
+- [Auth0 in 100 Seconds And beyond with a Next.js Authentication Tutorial](https://www.youtube.com/watch?v=yufqeJLP1rI)
 
 </details>
 
