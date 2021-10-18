@@ -271,7 +271,12 @@
 - [React Native Directory](https://reactnative.directory)
 - [Mouseless Development Environment](https://www.smashingmagazine.com/2021/09/mouseless-development-environment/)
 - [It takes a PHD to develop that](https://blog.royalsloth.eu/posts/it-takes-a-phd-to-develop-that/)
-https://www.youtube.com/watch?v=fAAZixBzIAI
+- [Styled Components - Advanced Next.js](https://styled-components.com/docs/advanced#nextjs)
+- [Bitwise Operators in C (Part 1)](https://www.youtube.com/watch?v=jlQmeyce65Q)
+- [Bitwise Operators in C (Part 2)](https://www.youtube.com/watch?v=8aFik6lPPaA)
+- [Bitwise Operators in C (Part 3)](https://www.youtube.com/watch?v=GhhJP6vpEA8)
+- [What are microservices really all about? - Microservices Basics Tutorial](https://www.youtube.com/watch?v=j1gU2oGFayY)
+- [Session vs Token Authentication in 100 Seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI)
 - [Auth0 in 100 Seconds And beyond with a Next.js Authentication Tutorial](https://www.youtube.com/watch?v=yufqeJLP1rI)
 
