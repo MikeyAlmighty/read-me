@@ -39,6 +39,8 @@ c.right = f;
 // Expected Output: [a,b,d,e,c,f]
 // Or: [a,c,f,b,e,d]
 
+// DFS = Stack Data Structure
+
 // Iterative Solution
 const depthFirstValues = (root) => {
  const stack = [root] // Stack array Push, array Pop
@@ -66,3 +68,5 @@ const depthFirstValuesRecursive = (root) => {
   return [root.val, ...leftValues, ...rightValues]
 }
 const recursive = depthFirstValuesRecursive(a)
+
+// BFS = Queue Data Structure

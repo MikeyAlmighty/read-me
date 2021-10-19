@@ -279,6 +279,7 @@
 - [Session vs Token Authentication in 100 Seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Binary Tree Algorithms for Technical Interviews](https://www.youtube.com/watch?v=fAAZixBzIAI)
 - [Auth0 in 100 Seconds And beyond with a Next.js Authentication Tutorial](https://www.youtube.com/watch?v=yufqeJLP1rI)
+- [Data structures: Introduction to Queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
 </details>
 
