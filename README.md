@@ -281,6 +281,11 @@
 - [Auth0 in 100 Seconds And beyond with a Next.js Authentication Tutorial](https://www.youtube.com/watch?v=yufqeJLP1rI)
 - [Data structures: Introduction to Queues](https://www.youtube.com/watch?v=XuCbpw6Bj1U)
 
+# November
+
+- [React Native: Using Images](https://www.youtube.com/watch?v=2s5KNg_5_LA)
+- [React Native: Flat List Component](https://www.youtube.com/watch?v=iMCM1NceGJY)
+
 </details>
 
 ## Notes
