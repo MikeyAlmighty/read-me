@@ -286,6 +286,7 @@
 - [React Native: Using Images](https://www.youtube.com/watch?v=2s5KNg_5_LA)
 - [React Native: Flat List Component](https://www.youtube.com/watch?v=iMCM1NceGJY)
 - [React Native: Touchables](https://www.youtube.com/watch?v=QhX25YGf8qg)
+- [PR: update react-native releases/changelog](https://github.com/facebook/react-native/pull/32551#event-5584512362)
 
 </details>
 
