@@ -287,6 +287,10 @@
 - [React Native: Flat List Component](https://www.youtube.com/watch?v=iMCM1NceGJY)
 - [React Native: Touchables](https://www.youtube.com/watch?v=QhX25YGf8qg)
 - [PR: update react-native releases/changelog](https://github.com/facebook/react-native/pull/32551#event-5584512362)
+- [React Native: Stack Navigator](https://www.youtube.com/watch?v=cS4PgI3zBzY)
+- [Learn useMemo in 10 Minutes](https://www.youtube.com/watch?v=THL1OPn72vo)
+- [React onHover Event Handling Examples](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples) 
+- [Easy-peasy State Management](https://easy-peasy.vercel.app/)
 
 </details>
 
