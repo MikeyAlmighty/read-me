@@ -79,3 +79,35 @@ This includes the data prop and parent component state.
 In order to constrain memory and enable `smooth scrolling`, content is **rendered asynchronously offscreen**.
 This means it's possible to scroll faster than the fill rate and momentarily see blank content.
 This is a tradeoff that can be adjusted to suit the needs of each **application**.
+
+
+### Gestures
+
+Lifecycle: Start, move, release
+
+### Responder Lifecycle
+
+A view can become the touch responder by implementing the correct negotiation methods. There are two methods to ask the view if it wants to become responder:
+
+`View.props.onStartShouldSetResponder: (evt) => true`, - Does this view want to become responder on the start of a **touch**?
+`View.props.onMoveShouldSetResponder: (evt) => true`, - Called for every touch move on the View when it is not the responder: does this view want to "claim" touch responsiveness?
+
+If the view is responding, the following handlers can be called:
+
+`View.props.onResponderMove: (evt) => {}` - The user is moving their finger
+`View.props.onResponderRelease: (evt) => {}` - Fired at the end of the touch, ie "touchUp"
+`View.props.onResponderTerminationRequest: (evt) => true` - Something else wants to become responder. Should this view release the responder? Returning true allows release
+`View.props.onResponderTerminate: (evt) => {}` - The responder has been taken from the View. Might be taken by other views after a call to onResponderTerminationRequest, or might be taken by the OS without asking (happens with control center/ notification center on iOS)
+
+`evt` is a synthetic touch event with the following form:
+
+`nativeEvent`
+- `changedTouches` - Array of all touch events that have changed since the last event
+- `identifier` - The ID of the touch
+- `locationX` - The X position of the touch, relative to the element
+- `locationY` - The Y position of the touch, relative to the element
+- `pageX` - The X position of the touch, relative to the root element
+- `pageY` - The Y position of the touch, relative to the root element
+- `target` - The node id of the element receiving the touch event
+- `timestamp` - A time identifier for the touch, useful for velocity calculation
+- `touches` - Array of all current touches on the screen

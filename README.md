@@ -292,6 +292,9 @@
 - [React onHover Event Handling Examples](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples) 
 - [Easy-peasy State Management](https://easy-peasy.vercel.app/)
 - [The Basics of React Native Animations](https://eveningkid.medium.com/the-basics-of-react-native-animations-fb00a8ccc178) 
+- [Animation Types in React Native](https://www.youtube.com/watch?v=0bDfdG1RTzo)
+- [Creating a Rotation animation in React Native](https://javascript.plainenglish.io/creating-a-rotation-animation-in-react-native-45c3f2973d62)
+- [Animation Types in React Native](https://eveningkid.medium.com/animation-types-in-react-native-e185ca15008e)
 
 </details>
 
