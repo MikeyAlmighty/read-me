@@ -35,16 +35,23 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const HomeScreen() {
+const HomeScreen = ({ navigation }) => {
+  // navigation.navigate('Details')
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-
       <Text>Home Screen</Text>
     </View>
   );
 }
 
-const ProfileScreen = ({ navigation, route }) => <Text>This is {route.params.name}'s profile</Text>;
+const DetailsScreen = ({ navigation }) => {
+  // navigation.navigate('Home')
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
 
 const Stack = createNativeStackNavigator();
 
@@ -52,17 +59,100 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} options={{ title: "Dashboard" }} />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Details" component={DetailsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
 ```
 
-
 Each screen takes a `component` prop that is a **React component**. Those components receive a prop called `navigation` which has various methods to link to other screens: `navigation.navigate`.
 
 [Native Stack Navigator](https://reactnavigation.org/docs/native-stack-navigator/)
 
 To specify screen-specific options, we can pass an `options` prop to `Stack.Screen`, and for **common options**, we can pass `screenOptions` to `Stack.Navigator`.
+
+#### Passing parameters to routes
+
+1. Pass params to a route by putting them in an `object` as a second parameter to the `navigation.navigate` function: `navigation.navigate('RouteName', { /* params go here */ })`
+2. Read the params in your screen component: `route.params`.
+
+``` javascript
+const HomeScreen = ({ navigation }) => {
+  // navigation.navigate('Details')
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+        <Button
+          title="Go to Details"
+          onPress={() => {
+            /* 1. Navigate to the Details route with params */
+            navigation.navigate('Details', {
+              itemId: 86,
+              otherParam: 'anything you want here',
+            });
+          }}
+        />
+    </View>
+  );
+}
+
+const DetailsScreen = ({ route, navigation }) => {
+  const { itemId, otherParam } = route.params
+  /* 2. Get the param */
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+```
+
+`navigate` and `push` accept an optional second argument to let you pass **parameters** to the route you are navigating to.
+For example: `navigation.navigate('RouteName', { paramName: 'value' })`.
+You can **read the params** through `route.params` inside a screen
+You can update the screen's params with `navigation.setParams`
+**Initial params** can be passed via the `initialParams` prop on Screen
+**Params** should contain the minimal data required to show a screen, nothing more. (Like a URL, clients/:clientId)
+
+`NavigationContainer` is a component which manages our navigation tree and contains the navigation state. This component must **wrap all navigators structure**.
+Usually, we'd render this component at the root of our app, which is usually the component exported from App.js.
+
+`navigation.navigate('RouteName')` pushes a new route to the native stack navigator if it's not already in the stack, otherwise it jumps to that screen.
+
+We can call `navigation.push('RouteName')` as many times as we like and it will continue pushing routes.
+The header bar will automatically show a back button, but you can programmatically go back by calling navigation.goBack(). On Android, the hardware back button just works as expected.
+You can go back to an existing screen in the stack with navigation.navigate('RouteName'), and you can go back to the first screen in the stack with navigation.popToTop().
+The navigation prop is available to all screen components (components defined as screens in route configuration and rendered by React Navigation as a route).
+
+
+
+### Animations
+
+Animations are very important to create a **great user experience**.
+Stationary objects must overcome inertia as they start moving. Objects in motion have **momentum** and rarely come to a stop immediately.
+Animations allow you to convey physically believable motion in your interface.
+
+
+React Native provides us with an Animation API, `Animated` which runs on a seperate UI thread. (vs using translations which runs on the Main JS thread).
+
+#### Animatable components
+
+Only animatable components can be animated.
+These unique components do the magic of binding the animated values to the properties, and do targeted native updates to avoid the cost of the React render and reconciliation process on every frame.
+
+- They also handle cleanup on unmount so they are safe by default.
+
+`createAnimatedComponent()` can be used to **make a component animatable**.
+Animated exports the following animatable components using the above wrapper:
+
+1. `Animated.Image`
+2. `Animated.ScrollView`
+3. `Animated.Text`
+4. `Animated.View`
+5. `Animated.FlatList`
+6. `Animated.SectionList`
+
+
+`const fadeAnim = useRef(new Animated.Value(0)).current  // Initial value: 0`

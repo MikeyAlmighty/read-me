@@ -291,6 +291,7 @@
 - [Learn useMemo in 10 Minutes](https://www.youtube.com/watch?v=THL1OPn72vo)
 - [React onHover Event Handling Examples](https://upmostly.com/tutorials/react-onhover-event-handling-with-examples) 
 - [Easy-peasy State Management](https://easy-peasy.vercel.app/)
+- [The Basics of React Native Animations](https://eveningkid.medium.com/the-basics-of-react-native-animations-fb00a8ccc178) 
 
 </details>
 
