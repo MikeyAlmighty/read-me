@@ -295,6 +295,7 @@
 - [Animation Types in React Native](https://www.youtube.com/watch?v=0bDfdG1RTzo)
 - [Creating a Rotation animation in React Native](https://javascript.plainenglish.io/creating-a-rotation-animation-in-react-native-45c3f2973d62)
 - [Animation Types in React Native](https://eveningkid.medium.com/animation-types-in-react-native-e185ca15008e)
+- [What Happens To Developers Who Never Go Into Management](https://wbscodingschool.medium.com/what-happens-to-developers-who-never-go-into-management-1f1d8483e4bd)
 
 </details>
 
