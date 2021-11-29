@@ -1,32 +1,26 @@
+## TypeScript
+
 Uses `.tsx`extension
 `.tsconfig` - Configuration File [Example tsconfig](../tsconfig.example.md)
 
 ### Benefits
-Strong typing
-OOP Features
-Compile-time errors
-Great tooling
 
-TypeScript Transpiles to JavaScript
+- Strong typing
+- OOP Features
+- Compile-time errors
+- Great tooling
 
-Interfaces => Custom Types (Defines the shape)
+### JavaScript vs TypeScript
 
-Interfaces must not include any implementations, only declarations
-Functions part of a class called a method
-Objects are instance of a class
-? (Optional)
+JavaScript dynamically typed (Resolved at runtime)
+TypeScript statically typed (Set during Development)
 
-Access Modifiers
-Public
-Private
-Protected
+### Types
 
-Properties
-set/get 
-Used like fields (Internally a method in a class)
+``` typescript
+number:  1, 5.3, -10
+string:  'deadPool', "deadPool", `deadPool`
+boolean: true, false
+```
 
-Modules
-export/import
 
-### React and TypeScript
-Component<{...}> type of props
