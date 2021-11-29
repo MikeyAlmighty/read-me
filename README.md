@@ -296,6 +296,11 @@
 - [Creating a Rotation animation in React Native](https://javascript.plainenglish.io/creating-a-rotation-animation-in-react-native-45c3f2973d62)
 - [Animation Types in React Native](https://eveningkid.medium.com/animation-types-in-react-native-e185ca15008e)
 - [What Happens To Developers Who Never Go Into Management](https://wbscodingschool.medium.com/what-happens-to-developers-who-never-go-into-management-1f1d8483e4bd)
+- [React Native: DateTimePicker Docs](https://github.com/react-native-datetimepicker/datetimepicker)
+- [I programmed some creatures. They Evolved.](https://www.youtube.com/watch?v=N3tRFayqVtk)
+- [Converting 100,000 lines of React Native to TypeScript](https://www.secondnature.io/us/blog/converting-100000-lines-of-react-native-to-typescript)
+- [Build a React Native Component Library with Storybook](https://blog.logrocket.com/build-a-react-native-component-library-with-storybook/)
+- [Styles and Theming with Restyle in React Native](https://www.youtube.com/watch?v=uOHIVyLoo94)
 
 </details>
 
