@@ -301,6 +301,8 @@
 - [Converting 100,000 lines of React Native to TypeScript](https://www.secondnature.io/us/blog/converting-100000-lines-of-react-native-to-typescript)
 - [Build a React Native Component Library with Storybook](https://blog.logrocket.com/build-a-react-native-component-library-with-storybook/)
 - [Styles and Theming with Restyle in React Native](https://www.youtube.com/watch?v=uOHIVyLoo94)
+- [TypeScript Tutorial #15 - Interfaces](https://www.youtube.com/watch?v=VbW6vWTaHOY)
+- [TypeScript Tutorial #16 - Interfaces with classes](https://www.youtube.com/watch?v=XPGFqx8Vg-Y)
 
 </details>
 
