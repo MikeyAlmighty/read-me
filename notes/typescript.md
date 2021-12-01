@@ -168,3 +168,139 @@ export class ZipCodeValidator implements StringValidator {
 ```
 
 ### Advanced Types
+
+#### Intersection Types Types
+
+Allows us to combine two types.
+
+``` typescript
+type Admin = {
+  name: string;
+  privelages: string[];
+}
+
+type Employee = {
+  name: string;
+  startDate: Date;
+}
+
+type ElevatedEmployee = Admin & Employee
+
+// Must require both Admin and Employee fields
+const e1: ElevatedEmployee = {
+  name: 'Mikey',
+  privelages: ['create-server'],
+  startDate: new Date()
+}
+```
+
+Can be used with types other than objects as well:
+
+``` typescript
+type Combinable = string | number;
+type Numeric = number | boolean;
+
+type Universal = Combinable & Numeric
+```
+
+Intersection Types: Closely relate to interface inheritance
+
+#### Union Types
+Either one or the other, not both (Union)
+``` typescript
+type Admin = {
+  name: string;
+  privelages: string[];
+}
+
+type Employee = {
+  name: string;
+  startDate: Date;
+}
+
+type UnknownEmployee = Admin | Employee
+
+```
+
+### TypeGuarding
+`typeof` is used only in JS land (Not TS).
+
+Using `in`:
+``` typescript
+// emp: UnknownEmployee
+  if("privelages" in emp) {
+    ...
+  }
+```
+
+Using `instanceof` if it's referring to Classes:
+(Javascript understands `classes` but **not** `interfaces`, hence why we can't use `instanceof` when working with interfaces).
+``` typescript
+class Admin {
+  name: string;
+  privelages: string[];
+}
+
+class Employee {
+  name: string;
+  startDate: Date;
+}
+
+type UnkownEmployee = Admin | Employee
+
+
+const e1: UnkownEmployee = {
+  name: 'Mikey',
+  privelages: ['admin'],
+}
+
+if (e1 instanceof Employee) {
+  console.log(e1.startDate) //VALID
+}
+
+// console.log(e1.startDate); // INVALID
+```
+
+
+### Discriminated Unions
+
+Common property in each object that makes up our Union.
+i.e. 'type':
+Works with interfaces and classes.
+
+We use the property that we know exists, to check which type of object we're working with.
+
+``` typescript
+interface Bird {
+  type: 'Bird'; // Literal
+  flyingSpeed: number;
+}
+
+interface Horse {
+  type: 'Horse'; // Literal
+  runningSpeed: number;
+}
+
+type Animal = Bird | Horse;
+
+const moveAnimal = (animal: Animal) => {
+  // NOT ALLOWED because not a class
+  // if (animal instanceof Animal){
+
+  // }
+
+  switch(animal.type) {
+      case 'Bird':
+        console.log('Fyling Speed: ', animal.flyingSpeed)
+        break;
+      case 'Horse':
+        console.log('Running Speed: ', animal.runningSpeed)
+        break;
+  }
+}
+
+```
+
+Typescript supports us with nice intelli-sense based on which interface we're referring to.
+
+(Useful Pattern when working with objects and Union Types!)
