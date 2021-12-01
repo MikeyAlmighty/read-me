@@ -303,6 +303,7 @@
 - [Styles and Theming with Restyle in React Native](https://www.youtube.com/watch?v=uOHIVyLoo94)
 - [TypeScript Tutorial #15 - Interfaces](https://www.youtube.com/watch?v=VbW6vWTaHOY)
 - [TypeScript Tutorial #16 - Interfaces with classes](https://www.youtube.com/watch?v=XPGFqx8Vg-Y)
+- [TypeScript - Union, Intersection & String Literal Types](https://www.youtube.com/watch?v=IpP6xbkojy4)
 
 </details>
 

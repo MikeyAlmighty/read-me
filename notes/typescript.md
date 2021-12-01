@@ -169,9 +169,13 @@ export class ZipCodeValidator implements StringValidator {
 
 ### Advanced Types
 
-#### Intersection Types Types
+An `intersection type` combines **multiple types into one**.
+A `union type` describes a value that can be **one of several** types.
+Usage and notation are quite simple, the `&` symbol is used to build an **intersection** while the `|` symbol is for **union**.
 
-Allows us to combine two types.
+#### Intersection Types
+
+Allows us to combine two types (And merge it into one).
 
 ``` typescript
 type Admin = {
@@ -186,7 +190,7 @@ type Employee = {
 
 type ElevatedEmployee = Admin & Employee
 
-// Must require both Admin and Employee fields
+// Must require both Admin and Employee fields (Merges into one)
 const e1: ElevatedEmployee = {
   name: 'Mikey',
   privelages: ['create-server'],
@@ -203,10 +207,12 @@ type Numeric = number | boolean;
 type Universal = Combinable & Numeric
 ```
 
-Intersection Types: Closely relate to interface inheritance
+Intersection Types: Closely relate to interfaces using inheritance
 
 #### Union Types
+
 Either one or the other, not both (Union)
+
 ``` typescript
 type Admin = {
   name: string;
@@ -219,9 +225,9 @@ type Employee = {
 }
 
 type UnknownEmployee = Admin | Employee
-
 ```
 
+``` typescript
 ### TypeGuarding
 `typeof` is used only in JS land (Not TS).
 
@@ -235,6 +241,7 @@ Using `in`:
 
 Using `instanceof` if it's referring to Classes:
 (Javascript understands `classes` but **not** `interfaces`, hence why we can't use `instanceof` when working with interfaces).
+
 ``` typescript
 class Admin {
   name: string;
@@ -261,6 +268,8 @@ if (e1 instanceof Employee) {
 // console.log(e1.startDate); // INVALID
 ```
 
+— Union types can hold any instance of its components but can’t use functions of one. It can only use properties defined in all its components.
+— Intersection types can hold a subset of its components instances but can use functions of any of them.
 
 ### Discriminated Unions
 
@@ -298,9 +307,32 @@ const moveAnimal = (animal: Animal) => {
         break;
   }
 }
-
 ```
 
 Typescript supports us with nice intelli-sense based on which interface we're referring to.
 
 (Useful Pattern when working with objects and Union Types!)
+
+### Type Casting
+
+Lets you explicitly tell typescript the type.
+Typescript doesn't dive into HTML. (Hence why `x | null`)
+
+``` typescript
+const paragraph = document.querySelector('p'); // Type: HTMLParagraphElement | null
+// const userInputElement = document.getElementById('user-input'); // Type: HTMLElement | null
+
+// userInputElement.value = 'deadpool'; // INVALID because userInputElement could be of type null
+//
+//
+const userInputElement = <HTMLInputElement>document.getElementById('user-input'); // Type: HTMLElement | null
+
+userInputElement.value = 'deadpool'; // VALID
+
+In React:
+const userInputElement = document.getElementById('user-input')! as HTMLInputElement; // Type: HTMLElement | null
+
+userInputElement.value = 'deadpool'; // VALID
+```
+
+`document.getElementById('user-input')!` The exclamation says we never expect the LHS to be null
