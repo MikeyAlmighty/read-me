@@ -304,6 +304,8 @@
 - [TypeScript Tutorial #15 - Interfaces](https://www.youtube.com/watch?v=VbW6vWTaHOY)
 - [TypeScript Tutorial #16 - Interfaces with classes](https://www.youtube.com/watch?v=XPGFqx8Vg-Y)
 - [TypeScript - Union, Intersection & String Literal Types](https://www.youtube.com/watch?v=IpP6xbkojy4)
+- [How to Use NPM Link](https://www.youtube.com/watch?v=ooWJMd_1WjU)
+- [TypeScript tutorial: Declaration files](https://www.youtube.com/watch?v=GVUPOvCRmSY)
 
 </details>
 

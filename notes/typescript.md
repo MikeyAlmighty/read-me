@@ -336,3 +336,12 @@ userInputElement.value = 'deadpool'; // VALID
 ```
 
 `document.getElementById('user-input')!` The exclamation says we never expect the LHS to be null
+
+### TypeScript Declaration Files
+Special module that tells TypeScript we're only defining types:
+(Does not get compiled to JS/ only used for development, provide more information about functions)
+
+i.e. `typings.d.ts`
+
+This process is error-prone/duplicative, enter: [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).
+`DefinitelyTyped` is a community maintained repository for high quality TypeScript type definitions.
