@@ -95,7 +95,7 @@ addAndHandle(10, 10, (result) => console.log(result))
 
 ### The "unknown" Type 
 
-Rather use `unknown` than any where applicable.
+Rather use `unknown` than `any` where applicable.
 
 (By letting the type be `unknown` we can just add a `typeof` string check to score extra type safety).
 
@@ -121,7 +121,7 @@ function generateError(message: string, code: number): never {
 
 ### readonly
 
-Set once during (and kept throught) initialization.
+Set once during (and kept throughout) initialization.
 ``` typescript
 constructor(private readonly id: string, public name: string)
 ```
@@ -345,3 +345,80 @@ i.e. `typings.d.ts`
 
 This process is error-prone/duplicative, enter: [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).
 `DefinitelyTyped` is a community maintained repository for high quality TypeScript type definitions.
+
+### Index Types
+If you don't know exact property name, or property count, just that every property that which is added to this object - which is based on error container - MUST have a property name which must be interpreted to a String, as well as a value of type String.
+
+``` typescript
+
+// const data = { email: 'xxx', surname: 'xxx'  }
+
+interface ErrorContainer { 
+ [key: string] : string; // We're saying here all properties will be a string, i.e. "email" or "surname"
+}
+```
+
+### Function Overloads
+Overloads to help with type checking/intelli-sense
+``` typescript
+type Combinable = string | number;
+type Numeric =  number | boolean;
+
+type Universal = Combinable & Numeric;
+
+
+
+
+// Without:
+// result.split('') // ERROR Property 'split' does not exist on type 'string | number'.
+
+function add(a: number, b: number): number
+function add(a: string, b: string): string
+function add(a: string, b: number): string
+function add(a: Combinable, b: Combinable) {
+  if (typeof a === 'string' || typeof b === 'string') {
+      return a.toString() + b.toString()
+  }
+    return a + b
+}
+
+
+const result = add('Mikey', 'Leibbrandy')
+result.split('')
+```
+
+### Generics
+``` typescript
+const names: Array<string> = []
+// names[].split() Now typescript knows we're working with strings.
+const promise: Promise<string> = new Promise()
+
+
+function merge<T, U>(objA: T, objB: U) {
+    return Object.assign(objA, objB)
+}
+```
+
+#### Generic constraints
+
+``` typescript
+function merge<T extends object, U extends object>(objA: T, objB: U) {
+    return Object.assign(objA, objB)
+}
+
+// merge({ name: 'Mikey', surname: 'Leibbrandt' }, 30) 30 is not an object, hence why we need to specify extends object in function signature
+
+interface Lengthy {
+  length: number;
+}
+
+function countAndDescribe<T extends Lengthy>(element: T): [T, string]{
+    let descriptionText =  'Got no value';
+    if (element.length === 1){
+      descriptionText = 'Got 1 element'
+    } else if (element.length > 1){
+      descriptionText = 'Got' + element.length + 'elements.';
+    }
+    return [element, descriptionText];
+}
+```
