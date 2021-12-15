@@ -309,6 +309,8 @@
 - [TypeScript - Union, Intersection & String Literal Types](https://www.youtube.com/watch?v=IpP6xbkojy4)
 - [How to Use NPM Link](https://www.youtube.com/watch?v=ooWJMd_1WjU)
 - [TypeScript tutorial: Declaration files](https://www.youtube.com/watch?v=GVUPOvCRmSY)
+- [React Children with TypeScript](https://www.carlrippon.com/react-children-with-typescript/)
+- [Understanding Flexbox in React Native](https://www.youtube.com/watch?v=7_yRrrDMCwQ)
 
 </details>
 
