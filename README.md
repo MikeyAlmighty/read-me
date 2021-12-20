@@ -312,6 +312,7 @@
 - [React Children with TypeScript](https://www.carlrippon.com/react-children-with-typescript/)
 - [Understanding Flexbox in React Native](https://www.youtube.com/watch?v=7_yRrrDMCwQ)
 - [TypeScript Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+- [The Dark Side Of Software Development](https://dev.to/vibalijoshi/the-dark-side-of-software-development-441e)
 
 </details>
 

@@ -468,9 +468,13 @@ const names: Readonly<Array<string>> = ['Mikey', 'Neo']
 ### Decorators
 Meta-programming
 
+Only used for Class Definitions.
+
 Decorators executed when classes are defined! (Not when they are instantiated).
 
 Classes are syntactical sugar over Constructor Functions
+
+* 
 
 ``` typescript
 const Logger = (constructor: Function) => {
@@ -490,3 +494,23 @@ const person = new Person()
 ```
 
 #### Decorator Factories
+
+``` typescript
+const Logger = (logString: string) => {
+  return function(constructor: Function){
+    console.log(logString);
+    console.log(constructor);
+  }
+}
+
+@Logger('LOGGING - Person')
+class Person {
+  name = 'Mikey';
+
+  constructor(){
+    console.log('Creating Person!');
+  }
+}
+
+const person = new Person()
+```
