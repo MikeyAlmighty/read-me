@@ -311,6 +311,7 @@
 - [TypeScript tutorial: Declaration files](https://www.youtube.com/watch?v=GVUPOvCRmSY)
 - [React Children with TypeScript](https://www.carlrippon.com/react-children-with-typescript/)
 - [Understanding Flexbox in React Native](https://www.youtube.com/watch?v=7_yRrrDMCwQ)
+- [TypeScript Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 
 </details>
 

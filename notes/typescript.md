@@ -383,11 +383,13 @@ function add(a: Combinable, b: Combinable) {
 }
 
 
-const result = add('Mikey', 'Leibbrandy')
+const result = add('Mikey', 'Leibbrandt')
 result.split('')
 ```
 
 ### Generics
+Generics: flexibility combined with type safety!
+
 ``` typescript
 const names: Array<string> = []
 // names[].split() Now typescript knows we're working with strings.
@@ -400,6 +402,7 @@ function merge<T, U>(objA: T, objB: U) {
 ```
 
 #### Generic constraints
+**Constraints** allow you to narrow down the `concrete types` that may be used in a **Generic function**.
 
 ``` typescript
 function merge<T extends object, U extends object>(objA: T, objB: U) {
@@ -422,3 +425,68 @@ function countAndDescribe<T extends Lengthy>(element: T): [T, string]{
     return [element, descriptionText];
 }
 ```
+
+##### `keyof` contstraint
+Here we are telling Typescript that we pass in an `object T`, and `U` is a **key of** `object T`.
+``` typescript
+
+const extractAndConvert = <T extends object, U extends keyof T>(obj: T , key: U) => {
+    return obj[key]
+}
+
+// extractAndConvert({}, 'name') // ERROR
+// extractAndConvert({ name: 'Mikey' }, 'name') // VALID
+```
+
+#### Generic Utility Types 
+
+##### `Partial` All properties are optional
+
+``` typescript
+
+const createCourseGoal = (title, description, completeDate): CourseGoal => {
+    let courseGoal: Partial<CourseGoal> = {}
+
+    courseGoal.title = title
+    courseGoal.description = description
+    courseGoal.completeDate = completeDate
+
+    return courseGoal as CourseGoal
+}
+
+```
+
+##### `Readonly`
+
+``` typescript
+const names: Readonly<Array<string>> = ['Mikey', 'Neo']
+
+// names.push('Anderson') // ERROR
+// names.pop() // ERROR
+```
+
+### Decorators
+Meta-programming
+
+Decorators executed when classes are defined! (Not when they are instantiated).
+
+Classes are syntactical sugar over Constructor Functions
+
+``` typescript
+const Logger = (constructor: Function) => {
+    console.log('Logging...', constructor);
+}
+
+@Logger
+class Person {
+  name = 'Mikey';
+
+  constructor(){
+    console.log('Creating Person!');
+  }
+}
+
+const person = new Person()
+```
+
+#### Decorator Factories
