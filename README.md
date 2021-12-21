@@ -342,7 +342,7 @@
 ## Books
 
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
-- [The C Programming Language aka The Bible](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
+- [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 - [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
 
 ## [Quotes](notes/quotes.md)
