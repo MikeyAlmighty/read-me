@@ -516,3 +516,15 @@ const person = new Person()
 ```
 
 Execution of decorator functions fire off **bottom-up**. (Not the factory function, the actual decorator function)
+
+### Using Axios with TypeScript
+
+``` typescript
+type GoogleGeocodingResponse {
+  results: { geometry: { location: { lat: number }, { lng: number } } }[],
+  status: 'Ok' | 'ZERO_RESULTS' // Google defined in this example
+}
+
+
+axios.get<GoogleGeocodingResponse>('https://maps.googleapis.com/.....')
+```

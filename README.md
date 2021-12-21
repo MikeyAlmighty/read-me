@@ -316,6 +316,7 @@
 - [TypeScript: Index Types Operators](https://www.youtube.com/watch?v=PZOPSzLqW3M)
 - [How the React Native Bridge works (and how it will change in the future)](https://www.youtube.com/watch?v=TU_kTuz2i9Y)
 - [Object Oriented vs Functional Programming with TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
+- [(podcast) What is TypeScript? with Stefan Baumgartner](https://share.transistor.fm/s/2b6b7871)
 
 </details>
 
