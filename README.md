@@ -317,6 +317,7 @@
 - [How the React Native Bridge works (and how it will change in the future)](https://www.youtube.com/watch?v=TU_kTuz2i9Y)
 - [Object Oriented vs Functional Programming with TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [(podcast) What is TypeScript? with Stefan Baumgartner](https://share.transistor.fm/s/2b6b7871)
+- [Mobile Vitals - Four Metrics Every Mobile Developer Should Care About](https://blog.sentry.io/2021/08/23/mobile-vitals-four-metrics-every-mobile-developer-should-care-about)
 
 </details>
 
@@ -336,6 +337,7 @@
 - [JS Prototypes 101](notes/js/prototypes.js)
 - [Free Software](notes/free-software.md)
 - [Diamond Dependency Conflict](notes/diamond-dependency.org)
+- [Mobile Vitals](notes/mobile-vitals.md)
 
 ## Books
 
