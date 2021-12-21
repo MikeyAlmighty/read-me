@@ -514,3 +514,5 @@ class Person {
 
 const person = new Person()
 ```
+
+Execution of decorator functions fire off **bottom-up**. (Not the factory function, the actual decorator function)

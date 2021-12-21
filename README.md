@@ -313,6 +313,9 @@
 - [Understanding Flexbox in React Native](https://www.youtube.com/watch?v=7_yRrrDMCwQ)
 - [TypeScript Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 - [The Dark Side Of Software Development](https://dev.to/vibalijoshi/the-dark-side-of-software-development-441e)
+- [TypeScript: Index Types Operators](https://www.youtube.com/watch?v=PZOPSzLqW3M)
+- [How the React Native Bridge works (and how it will change in the future)](https://www.youtube.com/watch?v=TU_kTuz2i9Y)
+- [Object Oriented vs Functional Programming with TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 
 </details>
 
