@@ -322,6 +322,7 @@
 - [Org-Roam](https://www.orgroam.com/)
 - [Zettelkasten Note-Taking Method: Simply Explained](https://www.youtube.com/watch?v=rOSZOCoqOo8)
 - [Org Roam Setup - Emacs Doomcasts 25](https://www.youtube.com/watch?v=rH3ZH95zjKM)
+- [Org Roam: The Best Way to Keep a Journal in Emacs](https://www.youtube.com/watch?v=3-sLBaJAtew)
 
 </details>
 
