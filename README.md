@@ -319,6 +319,9 @@
 - [(podcast) What is TypeScript? with Stefan Baumgartner](https://share.transistor.fm/s/2b6b7871)
 - [Mobile Vitals - Four Metrics Every Mobile Developer Should Care About](https://blog.sentry.io/2021/08/23/mobile-vitals-four-metrics-every-mobile-developer-should-care-about)
 - [Introduction to Emacs Lisp - Learning Emacs Lisp #1](https://www.youtube.com/watch?v=RQK_DaaX34Q)
+- [Org-Roam](https://www.orgroam.com/)
+- [Zettelkasten Note-Taking Method: Simply Explained](https://www.youtube.com/watch?v=rOSZOCoqOo8)
+- [Org Roam Setup - Emacs Doomcasts 25](https://www.youtube.com/watch?v=rH3ZH95zjKM)
 
 </details>
 
