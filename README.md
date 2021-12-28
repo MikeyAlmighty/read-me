@@ -318,6 +318,7 @@
 - [Object Oriented vs Functional Programming with TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [(podcast) What is TypeScript? with Stefan Baumgartner](https://share.transistor.fm/s/2b6b7871)
 - [Mobile Vitals - Four Metrics Every Mobile Developer Should Care About](https://blog.sentry.io/2021/08/23/mobile-vitals-four-metrics-every-mobile-developer-should-care-about)
+- [Introduction to Emacs Lisp - Learning Emacs Lisp #1](https://www.youtube.com/watch?v=RQK_DaaX34Q)
 
 </details>
 
