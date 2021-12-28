@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       aa691f12-6964-48fc-9b74-b48289fd369d
+:END:
+#+title: PrimitiveTypes
+
+In JavaScript, a primitive (primitive value, primitive data type) is data that is not an `object` and has no methods.
+There are 7 primitive data types:
+- string,
+- number,
+- bigint,
+- boolean,
+- undefined,
+- symbol,
+- null.

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       802f1548-b6e6-4252-8093-a66ad5963e1f
+:END:
+#+title: Problem solving patterns
+
+1. Devise a plan/algorithm for solving problems.
+2. Master common patterns (When to use what algorithm).

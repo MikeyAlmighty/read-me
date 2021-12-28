@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       11894c9c-7eca-4045-a30c-9301ada29542
+:END:
+#+title: Frequency-Counter
+
+Uses objects/Sets to "collect" values/count frequencies of values.
+
+This can often avoid the need for nested loops or O(n^2) operations with arrays/strings.
+
+(Uses [[id:53801e3f-a731-4664-9583-2aec6a207a1f][ForOfLoop]])
+
+```js
+const same = (arr1: number[], arr2: number[]) => {
+  if (arr1.length !== arr2.length) return false;
+
+  let squaredHashMap = {};
+
+  for (val of arr1) {
+      const square = val * val;
+    squaredHashMap[square] = (frequency1[val] || 0) + 1;
+  }
+
+  // At this point we've built up:
+  // key is the square
+  // The value, is the frequency (Amount of appearances)
+  // 1: 1, 4: 1, 9: 1, 16: 1;
+
+    // After we are finished looping through our second arr (arr2), our `squaredHashMap` should have these values:
+  // { 1: 0, 4: 0, 9: 0, 16: 0 } Ensuring exact frequency match.
+    for(val of arr2){
+        if (!squaredHashMap[val]) return false;
+        squaredHashMap[val] = squaredHashMap - 1;
+   }
+    // If we finish iterating through the secondArr without returning false,
+    // that means that our arr1 contains all values that are in a squared state in arr2.
+    // Therefore, we return true outside of for of loop.
+    return true
+}
+
+same([1, 2, 3, 4], [4, 1, 9, 16])
+```
