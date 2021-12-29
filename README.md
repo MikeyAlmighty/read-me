@@ -319,6 +319,11 @@
 - [(podcast) What is TypeScript? with Stefan Baumgartner](https://share.transistor.fm/s/2b6b7871)
 - [Mobile Vitals - Four Metrics Every Mobile Developer Should Care About](https://blog.sentry.io/2021/08/23/mobile-vitals-four-metrics-every-mobile-developer-should-care-about)
 - [Advent of Code: Behind the Scenes (Programming Puzzles)](https://www.youtube.com/watch?v=CFWuwNDOnIo)
+- [Introduction to Emacs Lisp - Learning Emacs Lisp #1](https://www.youtube.com/watch?v=RQK_DaaX34Q)
+- [Org-Roam](https://www.orgroam.com/)
+- [Zettelkasten Note-Taking Method: Simply Explained](https://www.youtube.com/watch?v=rOSZOCoqOo8)
+- [Org Roam Setup - Emacs Doomcasts 25](https://www.youtube.com/watch?v=rH3ZH95zjKM)
+- [Org Roam: The Best Way to Keep a Journal in Emacs](https://www.youtube.com/watch?v=3-sLBaJAtew)
 
 </details>
 
@@ -343,7 +348,7 @@
 ## Books
 
 - [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
-- [The C Programming Language aka The Bible](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
+- [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 - [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
 
 ## [Quotes](notes/quotes.md)

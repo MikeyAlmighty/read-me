@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       53801e3f-a731-4664-9583-2aec6a207a1f
+:END:
+#+title: ForOfLoop
+Loops through the values of an iterable object.
+
+- variable
+On each iteration a value of a different property is assigned to variable.
+variable may be declared with const, let, or var.
+
+- iterable
+whose iterable properties are iterated.
+
+```js
+for (val in Object) {
+ ...
+}
+```
+
+```js
+const iterable = [10, 20, 30];
+
+for (const value of iterable) {
+  console.log(value);
+}
+// 10
+// 20
+// 30
+```

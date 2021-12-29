@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1d2ab8f3-41d3-4f65-b7d5-d5bad21b2ca7
+:END:
+#+title: Arrays
+
+When you need order kept.
