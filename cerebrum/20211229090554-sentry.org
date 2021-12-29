@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       00adf6a5-fbb5-4a71-b236-12aab72c8547
+:END:
+#+title: Sentry
+
+The Parts of the [[id:791def6f-6946-4739-afc8-44f325bc8756][DataSourceName]].
+The DSN configures the protocol, public key, server address, and project identifier. It is composed of the following parts:
+
+{PROTOCOL}://{PUBLIC_KEY}:{SECRET_KEY}@{HOST}{PATH}/{PROJECT_ID}
+
+- [Sentry Types](https://getsentry.github.io/sentry-javascript/modules/types.html)

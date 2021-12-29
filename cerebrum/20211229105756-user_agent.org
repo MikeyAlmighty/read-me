@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       65d45b24-3618-41f6-98a8-a3a65389ef48
+:ROAM_ALIASES: user-agents
+:END:
+#+title: User Agent
+In computing, a user agent is any software, acting on behalf of a user, which "retrieves, renders and facilitates end-user interaction with Web content".
+
+I.e: web browsers and email readers.

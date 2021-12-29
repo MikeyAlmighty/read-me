@@ -324,6 +324,8 @@
 - [Zettelkasten Note-Taking Method: Simply Explained](https://www.youtube.com/watch?v=rOSZOCoqOo8)
 - [Org Roam Setup - Emacs Doomcasts 25](https://www.youtube.com/watch?v=rH3ZH95zjKM)
 - [Org Roam: The Best Way to Keep a Journal in Emacs](https://www.youtube.com/watch?v=3-sLBaJAtew)
+- [Sentry Types](https://getsentry.github.io/sentry-javascript/modules/types.html)
+- [Authorization Code Request](https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/)
 
 </details>
 

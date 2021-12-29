@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8fd19f1f-8ce8-463e-a676-7410edd033fa
+:ROAM_ALIASES: PKCE
+:END:
+#+title: Proof Key for Code Exchange
+
+When the native application first loads the login page in the browser, it also generates a `code_verifier` string and passes that as a parameter on the URL.
+The Authorization Server stores away this string before returning the code back to the native application.
+When the native application then exchanges the code for the access token, it will include the `code_verifier` string on that call.
+If the `code_verifier` is missing or doesn’t match the previously recorded one, the Authorization Server will *not* return the access token.

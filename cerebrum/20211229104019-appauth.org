@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e4c0cf6e-ba85-4360-adf4-a1fc1ae91eee
+:END:
+#+title: AppAuth
+
+*AppAuth* is a client SDK for native apps to authenticate and authorize end-users using OAuth 2.0 and OpenID Connect.
+
+[[id:c88cbd0e-df59-4de9-9452-1faeb074d7ac][OAuth2.0]] authorization requests from native apps should *only* be made through external [[id:65d45b24-3618-41f6-98a8-a3a65389ef48][user-agents]], primarily the user's *browser*.
+This specification details the security and usability reasons why this is the case and how native apps and authorization servers can implement this best practice.
+
+It follows the best practices set out in RFC 8252 - OAuth 2.0 for Native Apps including using in-app browser tabs (like `SFAuthenticationSession` and `Android Custom Tabs`) where available.
+
+*Embedded [[id:65d45b24-3618-41f6-98a8-a3a65389ef48][user-agents]] (known as web-views)* are explicitly not supported due to the usability and security reasons.

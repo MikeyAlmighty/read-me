@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ceee39a4-32a7-4bfe-a337-75995366fa3b
+:ROAM_ALIASES: OIDC
+:END:
+#+title: OpenID Connect
+
+OpenID Connect (OIDC) 1.0 is a simple identity layer on top of the [[id:c88cbd0e-df59-4de9-9452-1faeb074d7ac][OAuth2.0]] protocol.
+It allows Clients to verify the *identity* of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User in an interoperable and REST-like manner.
+
+Verification/Profile information retrieval.

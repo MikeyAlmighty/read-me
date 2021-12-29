@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       791def6f-6946-4739-afc8-44f325bc8756
+:ROAM_ALIASES: "Data Source Name" DSN
+:END:
+#+title: DataSourceName
+
+* Data source name
+
+In computing, a data source name is a string that has an associated data structure used to describe a connection to a data source.
+Most commonly used in connection with ODBC, DSNs also exist for JDBC and for other data access mechanisms.
+The term often overlaps with "connection string".

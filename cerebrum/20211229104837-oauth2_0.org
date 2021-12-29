@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       c88cbd0e-df59-4de9-9452-1faeb074d7ac
+:END:
+#+title: OAuth2.0
+
+The OAuth 2.0 authorization framework enables a third-party
+application to obtain limited access to an HTTP service, either on
+behalf of a resource owner by orchestrating an approval interaction
+between the resource owner and the HTTP service, or by allowing the
+third-party application to obtain access on its own behalf.
+
+* Analogy
+Many luxury cars today come with a valet key.
+It is a special key you give the parking attendant and unlike your regular key, will not allow the car to drive more than a mile or two.
+Some valet keys will not open the trunk, while others will block access to your onboard cell phone address book.
+Regardless of what restrictions the valet key imposes, the idea is very clever.
+You give someone *limited access* to your car with a special key, while using your regular key to unlock everything.
+
+* Example
+We know that Google is an OpenID provider that implements the OAuth2 spec. How does that workflow work? Our example has 4 characters:
+
+- Client - the third party application that would like access to a user’s account.
+- The Resource Server (Google API) - the API server used to access the user’s information.
+- The Authorization Server (Google UI) - the server that presents the interface where the user approves or denies the request.
+- The Resource Owner (you) - the person that is giving access to some portion of their account.
+
+STEP 1: THE USER CLICKS ON THE “LOG IN WITH GOOGLE” BUTTON
+The user will be redirected to a Google-hosted page and prompted to log in.
+
+The request includes:
+- `Client ID` - received from Google.
+- `Redirect URI` - the URI back to Medium.
+- `Scope` - how much of the user’s information the website would like, e.g. email.
+
+Once the client had verified that the code received is authentic, it can make the request to exchange the auth code for the auth token.
+
+The auth server will verify this request and return the access token as well as a refresh token and expiry date when applicable.
