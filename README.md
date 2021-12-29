@@ -326,6 +326,8 @@
 - [Org Roam: The Best Way to Keep a Journal in Emacs](https://www.youtube.com/watch?v=3-sLBaJAtew)
 - [Sentry Types](https://getsentry.github.io/sentry-javascript/modules/types.html)
 - [Authorization Code Request](https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/)
+- [Protecting Apps with PKCE](https://www.oauth.com/oauth2-servers/pkce/)
+- [OAuth and PKCE with React Native](https://formidable.com/blog/2018/oauth-and-pkce-with-react-native/)
 
 </details>
 

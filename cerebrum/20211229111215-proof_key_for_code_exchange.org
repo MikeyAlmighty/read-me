@@ -4,6 +4,12 @@
 :END:
 #+title: Proof Key for Code Exchange
 
+* In short
+The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
+
+PKCE was originally designed to protect the authorization code flow in mobile apps, and was later recommended to be used by single-page apps as well.
+
+* Detailed:
 When the native application first loads the login page in the browser, it also generates a `code_verifier` string and passes that as a parameter on the URL.
 The Authorization Server stores away this string before returning the code back to the native application.
 When the native application then exchanges the code for the access token, it will include the `code_verifier` string on that call.
