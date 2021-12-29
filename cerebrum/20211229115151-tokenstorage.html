@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-12-29 Wed 11:17 -->
+<!-- 2021-12-29 Wed 11:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Proof Key for Code Exchange</title>
+<title>TokenStorage</title>
 <meta name="author" content="Michael Leibbrandt" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -196,45 +196,76 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Proof Key for Code Exchange</h1>
+<h1 class="title">TokenStorage</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd3efced">1. In short</a></li>
-<li><a href="#org0842e9f">2. Detailed:</a></li>
+<li><a href="#org906df59">1. Token Storage</a>
+<ul>
+<li><a href="#orgc1c9dd6">1.1. iOS - Keychain Services</a></li>
+<li><a href="#orgc319652">1.2. Android - Secure Shared Preferences</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd3efced" class="outline-2">
-<h2 id="orgd3efced"><span class="section-number-2">1.</span> In short</h2>
+<div id="outline-container-org906df59" class="outline-2">
+<h2 id="org906df59"><span class="section-number-2">1.</span> Token Storage</h2>
 <div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>[React Native App Auth Token Storage](<a href="https://github.com/FormidableLabs/react-native-app-auth/blob/main/docs/token-storage.md">https://github.com/FormidableLabs/react-native-app-auth/blob/main/docs/token-storage.md</a>)</li>
+</ul>
+
 <p>
-The technique involves the client first creating a secret on each authorization request, and then using that secret again when exchanging the authorization code for an access token. This way if the code is intercepted, it will not be useful since the token request relies on the initial secret.
+Once the user has successfully authenticated, you&rsquo;ll have a `JWT` and possibly a `refresh token` that should be stored securely.
 </p>
 
 <p>
-PKCE was originally designed to protect the authorization code flow in mobile apps, and was later recommended to be used by single-page apps as well.
+❗️ Do <b>not</b> use Async Storage for storing sensitive information.
+</p>
+
+<p>
+`Async Storage` is the simplest method of persisting data across application launches in React Native.
+However, it is an <b>unencrypted</b> key-value store and should therefore not be used for token storage.
+</p>
+
+<p>
+✅ DO use Secure Storage
+</p>
+
+<p>
+React Native does not come bundled with any way of storing sensitive data, so it is necessary to rely on the underlying platform-specific solutions.
+</p>
+</div>
+
+<div id="outline-container-orgc1c9dd6" class="outline-3">
+<h3 id="orgc1c9dd6"><span class="section-number-3">1.1.</span> iOS - Keychain Services</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Keychain Services allows you to securely store small chunks of sensitive info for the user. This is an ideal place to store certificates, tokens, passwords, and any other sensitive information that doesn’t belong in Async Storage.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org0842e9f" class="outline-2">
-<h2 id="org0842e9f"><span class="section-number-2">2.</span> Detailed:</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-orgc319652" class="outline-3">
+<h3 id="orgc319652"><span class="section-number-3">1.2.</span> Android - Secure Shared Preferences</h3>
+<div class="outline-text-3" id="text-1-2">
 <p>
-When the native application first loads the login page in the browser, it also generates a `code<sub>verifier</sub>` string and passes that as a parameter on the URL.
-The Authorization Server stores away this string before returning the code back to the native application.
-When the native application then exchanges the code for the access token, it will include the `code<sub>verifier</sub>` string on that call.
-If the `code<sub>verifier</sub>` is missing or doesn’t match the previously recorded one, the Authorization Server will <b>not</b> return the access token.
+Shared Preferences is the Android equivalent for a persistent key-value data store. Data in Shared Preferences is not encrypted by default. Encrypted Shared Preferences wraps the Shared Preferences class for Android, and automatically encrypts keys and values.
 </p>
+
+<p>
+In order to use iOS&rsquo;s Keychain services or Android&rsquo;s Secure Shared Preferences, you either can write a JS&lt;-&gt;native interface yourself or use a library which wraps them for you. Some even provide a unified API.
+</p>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Michael Leibbrandt</p>
-<p class="date">Created: 2021-12-29 Wed 11:17</p>
+<p class="date">Created: 2021-12-29 Wed 11:58</p>
 </div>
 </body>
 </html>

@@ -35,3 +35,5 @@ The request includes:
 Once the client had verified that the code received is authentic, it can make the request to exchange the auth code for the auth token.
 
 The auth server will verify this request and return the access token as well as a refresh token and expiry date when applicable.
+
+[[id:f87f8e27-15aa-4bac-8a29-9094051c2154][TokenStorage]] Do's and Dont's
