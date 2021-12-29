@@ -2,14 +2,28 @@
 :ID:       11ccf006-ed24-4c73-88b0-21230f63b885
 :END:
 #+title: SingletonPattern
-
+[[youtube:hUE_j6q0LTQ][Singleton Pattern – Design Patterns (ep 6)]]
 The Singleton Pattern limits the number of *instances* of a particular object to just one.
 
 This single instance is called the *singleton*.
 
+The constructor is `private`. (You can't do new `Singleton()`)
 
 (People argue to steer clear from using singleton: generally we try and avoid globals, globally accessible values changed anywhere (Mutibility).
 
 Sucks for testing as well: need to mock different *instances*.
 
 "One man's constant is another man's variable."
+
+static method `getInstance` returns single singleton instance.
+
+```
+export default class Singleton {
+  constructor() {
+
+  static getInstance = () => {
+    return Singleton.instance;
+  };
+}
+
+```
