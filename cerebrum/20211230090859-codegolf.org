@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7d7f0b82-11c7-4ceb-8d79-f27421904d77
+:END:
+#+title: Code Golf
+
+Write a program in the smallest amount of characters possible.
+
+[[id:efccc857-7ab6-4372-a1b3-8ebe10b09633][GolfScript]] was created solely for this sport.
