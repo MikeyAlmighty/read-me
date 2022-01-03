@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       15dece83-19a6-4aae-b3b8-35cb5f8443f1
+:ROAM_ALIASES: EsoLang
+:END:
+#+title: Esoteric Programming Language
+https://www.youtube.com/watch?v=cQ7bcCrJMHc
+
+Generally not used for being productive. (More for recreational use).
+- Programming language using folder structure: https://esolangs.org/wiki/Folders
+- Brainfuck (Actually Turing Complete).
+
+"Multi-programming language" - Shakespeare programming language,
+    both used to program and a play,
+    also cake recipe hello world + baked a real cake.
+
+EsoLangs spurred up a community-centric game, [[id:7d7f0b82-11c7-4ceb-8d79-f27421904d77][Code Golf]]!

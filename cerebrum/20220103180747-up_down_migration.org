@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0c0fd39a-d254-421e-9196-1b860a7142a1
+:END:
+#+title: Up/Down Migration
+
+* Migrate up
+Runs scripts sequentially by order of prefix version.
+
+* Migrate down
+Runs scripts sequentially in reverse order of prefix version.

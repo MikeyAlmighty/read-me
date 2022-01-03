@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8687e36f-67cc-480a-a90d-ab05fa69659f
+:END:
+#+title: SchemaMigration
+
+Refers to the management of incremental, reversible changes and version control to relational database schemas.
+A schema migration is performed on a database whenever it is necessary to update or revert that database's schema to some newer or older version.
+
+[[id:0c0fd39a-d254-421e-9196-1b860a7142a1][Up/Down Migration]]

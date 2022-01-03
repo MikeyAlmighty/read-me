@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       efccc857-7ab6-4372-a1b3-8ebe10b09633
+:END:
+#+title: GolfScript
+(2007)
+
+http://www.golfscript.com/golfscript/
+
+(Purely designed for golfing)
+Entire language is Stack based (LIFO).
