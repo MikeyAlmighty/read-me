@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       9fabb0b5-82da-489c-a0df-926e44033d27
+:END:
+#+title: Prisma
+
+https://www.prisma.io/
+
+"Next-generation Node.js and TypeScript ORM"
+
+
+#+begin_src typescript
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id      Int      @id @default(autoincrement())
+  name    String
+  posts   Post[]
+  profile Profile?
+}
+
+model Profile {
+  id       Int    @id @default(autoincrement())
+  biograpy String // Intentional typo!
+  userId   Int
+  user     User   @relation(fields: [userId], references: [id])
+}
+
+model Post {
+  id         Int        @id @default(autoincrement())
+  title      String
+  published  Boolean    @default(true)
+  content    String
+  authorId   Int
+  author     User       @relation(fields: [authorId], references: [id])
+  categories Category[]
+}
+
+model Category {
+  id    Int    @id @default(autoincrement())
+  name  String
+  posts Post[]
+
+  @@unique([name])
+}
+#+end_src
+
+Allows for easy [[id:8687e36f-67cc-480a-a90d-ab05fa69659f][Schema Migration]]  https://www.prisma.io/migrate/
