@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       393804a5-04cd-4df2-9047-37718dc0b5f4
+:END:
+#+title: Backend
+
+When designing an API, understand the [[id:19438128-90a9-4f86-8f5a-178ceaaf856f][Problem Domain]].

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       19438128-90a9-4f86-8f5a-178ceaaf856f
+:ROAM_ALIASES: "Problem Space"
+:END:
+#+title: Problem Domain
+
+All the terms that define the problem as well as the constraints on the solution.
+Area of expertise or application that needs to be examined to solve a problem.
+
+By understanding the problem domain, the shape and structure of the data model becomes clear.
