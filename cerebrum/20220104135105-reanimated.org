@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       fb743c1e-e188-4efd-b8b5-daa9af0e1b19
+:END:
+#+title: Reanimated
+
+Create smooth animations and interactions that runs on the UI thread.
+
+"Reanimted aims to provide ways of offlaading animation and event handling logic from the Main Thread onto the UI thread."

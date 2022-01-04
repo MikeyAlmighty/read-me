@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       ee19db87-d890-47d7-86d3-10ae8c582467
+:END:
+#+title: React Native Bridge
+
+Bridge between JavaScript and Native (Android/IOS) platforms.
+
+Allows for (Mostly) Asynchronous communication 2-way communication between JS and Native platforms.
+
+Old architecture: React -> JavaScript (JSC) -> Bridge (Shadow Tree, JSON Async, Native Modules) => Native platform.
+
+Key aspects of this (^) architecture: The JavaScript and Native realms are not aware of each orther.
+This means to communicate, they rely on Async JSON messages transmitted across the Bridge.
+
+* Limitation:
+    These Async JSON messages are sent to the Native realm with the *expectation* (but NOT a guarantee) that they will get back a response.
+Because of the async nature: Can *NOT* Synchronously update UI from JS
+Layout must be computed on the shadow thread.
+
+* Enter the [[id:903f1b44-ed3d-40e7-8d4b-b7ccc58dae1d][React Native Re-architecture]]

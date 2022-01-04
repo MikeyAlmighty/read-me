@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9864373c-589a-411a-b659-272f916aff06
+:ROAM_ALIASES: JSI
+:END:
+#+title: React Native JavaScript Interface
+
+[[https://blog.notesnook.com/getting-started-react-native-jsi][Getting Started with React Native JSI]]
+
+Easier/Faster communication between Native(Java/ObjC) and JavaScript code.
+It is the core element in the re-architecture of React Native with Fabric UI Layer and Turbo Modules.

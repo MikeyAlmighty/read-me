@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       903f1b44-ed3d-40e7-8d4b-b7ccc58dae1d
+:END:
+#+title: React Native Re-architecture
+
+The previous architecture's limitations: [id:ee19db87-d890-47d7-86d3-10ae8c582467][(React Native Bridge]]
+[[https://www.youtube.com/watch?v=FqMTXagEvHo][David Vacca - The state of React Native (2018)]]
+
+https://formidable.com/blog/2019/react-codegen-part-1/
+
+Thread-safe
+Choose when to Render Layouts synchronously.
