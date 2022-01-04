@@ -8,3 +8,6 @@
 
 Easier/Faster communication between Native(Java/ObjC) and JavaScript code.
 It is the core element in the re-architecture of React Native with Fabric UI Layer and Turbo Modules.
+
+- Host object in C++ exposes methods/variables to JS
+- JS holds references to HostObjects, can call methods on said HostObjects.
