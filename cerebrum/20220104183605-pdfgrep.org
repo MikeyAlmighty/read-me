@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       26b4edee-b8f6-4b3a-978f-29aac126dbbf
+:END:
+#+title: PDFGrep
+
+Find and move files that match pattern
+
+pdfgrep -r -l -Z 'JavaScript' *.pdf  | xargs -0 -I{} mv {} ./filtered/
