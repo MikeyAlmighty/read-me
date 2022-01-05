@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       efaca828-decc-457e-b63c-8a57f5f145b1
+:ROAM_ALIASES: JIT
+:END:
+#+title: Just-In-Time Compilation
+
+Executing code that `requires compilation` during EXECUTION of the program rather than before execution.
+
+Used for performance optimization.

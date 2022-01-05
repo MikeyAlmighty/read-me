@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       05a887ed-dfc2-45b1-9edf-0bd60cd47757
+:END:
+#+title: Turbo Modules
+
+Lazy Loading
+Increases App start-up time.

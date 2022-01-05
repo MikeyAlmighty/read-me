@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       2effc22e-2921-43ba-bc3e-f1384b664879
+:ROAM_ALIASES: "Fabric UI"
+:END:
+#+title: Fabric Rendering
+
+Shadow Tree is built up on the native side (C++), which is obviously a LOT faster than JS.
+We also don't need to pass any JSON through the Bridge.
+
+Old: React -> Native -> Shadow Tree -> Bridge -> Native UI
+
+New: React -> Native -> Shadow Tree(C++) -> Native UI (Introduced in [[id:903f1b44-ed3d-40e7-8d4b-b7ccc58dae1d][React Native Re-architecture]]).

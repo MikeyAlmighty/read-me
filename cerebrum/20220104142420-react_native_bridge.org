@@ -7,9 +7,7 @@ Bridge between JavaScript and Native (Android/IOS) platforms.
 
 Allows for (Mostly) Asynchronous 2-way communication between JS and Native platforms.
 
-Old architecture: React -> JavaScript (JSC) -> Bridge (Shadow Tree, JSON Async, Native Modules) => Native platform.
-
-Key aspects of this (^) architecture: The JavaScript and Native realms are not aware of each orther.
+Key aspects of this (^) architecture: The JavaScript and Native realms are not "aware" of each other.
 This means to communicate, they rely on Async JSON messages transmitted across the Bridge.
 
 * Limitation:

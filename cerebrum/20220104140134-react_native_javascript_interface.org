@@ -7,7 +7,7 @@
 [[https://blog.notesnook.com/getting-started-react-native-jsi][Getting Started with React Native JSI]]
 
 Easier/Faster communication between Native(Java/ObjC) and JavaScript code.
-It is the core element in the re-architecture of React Native with Fabric UI Layer and Turbo Modules.
+It is the core element in the re-architecture of React Native with Fabric UI [[id:2effc22e-2921-43ba-bc3e-f1384b664879][(Fabric Rendering]]) Layer and [[id:05a887ed-dfc2-45b1-9edf-0bd60cd47757][Turbo Modules]].
 
 - Host object in C++ exposes methods/variables to JS
 - JS holds references to HostObjects, can call methods on said HostObjects.

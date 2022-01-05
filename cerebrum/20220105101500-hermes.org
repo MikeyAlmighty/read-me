@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e651b3ad-956b-48b3-90f8-6eca40c2188d
+:END:
+#+title: Hermes
+
+[[https://www.youtube.com/watch?v=HTmYGeCmgPc][Hermes with Node.js]] (2019)
+
+JavaScript preprocessor and engine.
+- Built by Facebook for React Native Android

@@ -5,6 +5,7 @@
 
 [[https://www.youtube.com/watch?v=FqMTXagEvHo][David Vacca - The state of React Native (2018)]]
 [[https://www.youtube.com/watch?v=UcqRXTriUVI][React Native's New Architecture (2018)]]
+[[https://www.youtube.com/watch?v=0FmdhG4Yxro][React Native New Features in 2021]]
 
 The previous architecture's limitations: [[id:ee19db87-d890-47d7-86d3-10ae8c582467][React Native Bridge]].
 
