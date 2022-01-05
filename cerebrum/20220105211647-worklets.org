@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       980e3dbc-e481-41ba-ae2d-f1c86aeaf632
+:END:
+#+title: Worklets
+
+* Worklets
+Updating views or reacting to events on the UI thread.
+
+#+begin_src js
+function someWorklet(greeting) {
+  'worklet';
+  console.log(greeting, 'From the UI thread');
+}
+
+function onPress() {
+  runOnUI(someWorklet)('Howdy');
+}
+#+end_src
+
+Asynchronous from the callers perspective
+Functions also capture the context in which they are defined.
+
+#+begin_src js
+const width = 135.5;
+
+function otherWorklet() {
+  'worklet';
+  console.log('Captured width is', width);
+}
+#+end_src
+
+Worklets can capture (or take as arguments) from other worklets, in which case when called, they will execute synchronously on the UI thread:
+
+#+begin_src js
+function returningWorklet() {
+  'worklet';
+  return "I'm back";
+}
+
+function someWorklet() {
+  'worklet';
+  let what = returningWorklet();
+  console.log('On the UI thread, other worklet says', what);
+}
+#+end_src
+
+#+begin_src js
+function callback(text) {
+  console.log('Running on the RN thread', text);
+}
+
+function someWorklet() {
+  'worklet';
+  console.log("I'm on UI but can call methods from the RN thread");
+  runOnJS(callback)('can pass arguments too');
+}
+#+end_src
+
+And the good stuff, hooks:
+#+begin_src js
+const style = useAnimatedStyle(() => {
+  console.log("Running on the UI thread");
+  return {
+    opacity: 0.5
+  };
+});
+#+end_src

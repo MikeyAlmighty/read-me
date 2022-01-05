@@ -3,6 +3,8 @@
 :END:
 #+title: Reanimated
 
-Create smooth animations and interactions that runs on the UI thread.
+Create smooth animations and interactions that run on the UI thread.
 
-"Reanimted aims to provide ways of offlaading animation and event handling logic from the Main Thread onto the UI thread."
+"Reanimated aims to provide ways of offlaading animation and event handling logic from the Main Thread onto the UI thread."
+
+[[id:980e3dbc-e481-41ba-ae2d-f1c86aeaf632][Worklets]]
