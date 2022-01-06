@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       799d0f47-62cf-4bde-996b-9ec672890352
+:END:
+#+title: golang Structs
+
+Struct tags such as `json:"artist"` specify what a field’s name should be when the struct’s contents are serialized into JSON.
+Without them, the JSON would use the struct’s capitalized field names – a style not as common in JSON.
+
+#+begin_src go
+// album represents data about a record album.
+type album struct {
+    ID     string  `json:"id"`
+    Title  string  `json:"title"`
+    Artist string  `json:"artist"`
+    Price  float64 `json:"price"`
+}
+#+end_src

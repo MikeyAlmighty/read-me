@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       03657877-52b3-4507-a91a-570292386ecd
+:END:
+#+title: JSON Marshal/Unmarshal
+
+Marshal: Generate JSON string from data structure.
+Unmarshal: Converting JSON String back into a data structure.

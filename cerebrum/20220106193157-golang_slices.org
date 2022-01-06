@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       3f8c9622-129d-400c-baa8-77682d683b58
+:END:
+#+title: Golang Slices
+
+Different data type than arrays.
+However they're built on-top of arrays.
+
+Portions of an array.
+Dynamic in size
+
+
+[[https://youtu.be/KzKNGGoaT5U?list=PLzMcBGfZo4-mtY_SE3HuzQJzuj4VlUG0q&t=265][Golang Tutorial #13 - Slices (2020)]]
+
+e.g. Array
+// [0, 3, 6, 9]
+//  0  1  2  3
+
+ptr ^
+length = size of array
+capacity = always same as length  (in case of array) - Maximum amount of elements we could have.
+
+e.g. Slices (portion of an array)
+
+ptr
+length = number of elements in the slice
+capacity = How many elements we could have
+
+Syntax:
+#+begin_src go
+var x [5]int = [5]int {1, 2, 3, 4, 5 } // Array
+var s []int = x [:] // Slice LHS = starting index, RHS = Go up to but not including
+#+end_src
+
+#+begin_src go
+func main() {
+    var x [5]int = [5]int { 3, 5, 7, 8 } // Array
+    var s []int = x[1:3] // Slice starting at index 1 (element: 5) up to but NOT including index 3 (stops at element: 7)
+    fmt.Println(s) // returns [ 5, 7 ]
+}
+#+end_src
+
+Creating a slice explicitly: (This creates an array behind the scenes which then gets sliced)
+
+#+begin_src go
+func main() {
+  var a []int = []int {3, 5, 7, 8}
+}
+#+end_src
+
+Don't really add onto a slice, you create a new slice from said slice.
+
+
+
+#+begin_src go
+func main() {
+  var a []int = []int {3, 5, 7, 8}
+  b := append(a, 10) //first arg: slice, second arg: object to append
+  fmt.Println(b)
+}
+#+end_src
+
+Can also use `make`: (To create a slice of size `n` with values set to 0).
+#+begin_src go
+func main() {
+  a := make([]int, 5)
+}
+#+end_src
+
+#+RESULTS:

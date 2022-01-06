@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d013f636-6239-437a-9481-34839b26ac48
+:END:
+#+title: GoLang Array
+
+
+// Shorthand:
+arr := [3]int { 3, 4, 5 }
