@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3c02c11b-729e-4785-bf85-5a032e3e14d1
+:END:
+#+title: Golang Make vs New
+
+new: Only allocates memory (Does not initialize).
+make: Alocate and Initializes (Non-zeroed storage).
+
+#+begin_src go
+func main(){
+  score := make(map[string]int) // Here we are saying the key is of type `string` and the value of type `int`.
+}
+#+end_src
+
+#+RESULTS:

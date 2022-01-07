@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       ffabf1aa-38b7-48a4-9957-eeac7c9a1151
+:END:
+#+title: Golang Maps
+
+Key/Value Pairs in Golang
+
+[[https://www.youtube.com/watch?v=p4LS3UdgJA4][Maps are super easy in golang | golang series]]
+
+see [[id:3c02c11b-729e-4785-bf85-5a032e3e14d1][Golang Make vs New]]
+
+#+begin_src go
+func main(){
+	score := make(map[string]int)
+	score["Mikey"] = 420
+	score["Deadpool"] = 69
+	score["Batman"] = 43
+	score["Spiderman"] = 76
+
+  mikeyVal, exists := score["Mikey"] // exists: boolean if value exists
+  if(exists) {
+      fmt.Printf("%v exists", mikeyVal)  // prints "Freddy exists"
+  }
+
+	deadPoolAge := score["Deadpool"]// Accessing specific KVP
+	fmt.Println(deadPoolAge) // Prints 69
+	delete(score, "Mikey") // Delete a KVP
+
+	// Map iteration:
+	for k, v := range score {
+		fmt.Println(k)
+		fmt.Println(v)
+ 	}
+}
+#+end_src
+
+Map literal syntax:
+#+begin_src go
+  var names = map[int]string {
+    0: "John",
+    1: "Jane",   // last comma is a must
+  }
+#+end_src
