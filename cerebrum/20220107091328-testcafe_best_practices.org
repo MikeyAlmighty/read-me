@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bb22857c-27d3-48d9-b531-462c3ade933c
+:END:
+#+title: TestCafe: Best practices
+
+* Smart Assertions
+In end-to-end web testing, unpredictable factors (like network lag, processor speed, or memory bottlenecks in containers) can interfere with the assertions and produce inconsistent test results.
+Such tests are inconclusive (sometimes called ‘flaky’).

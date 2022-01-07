@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       04122bab-c641-46fc-a198-95b0db7921b4
+:END:
+#+title: Serialization VS Marshalling
+
+([[id:03657877-52b3-4507-a91a-570292386ecd][JSON Marshal/Unmarshal]])
+Both do one thing in common - that is `serializing` an Object.
+
+`Serialization` is used to *transfer* objects or to *store* them. But:
+
+Serialization: copying structured data to or from a primitive form such as a byte stream.
+
+Marshalling: Passing Object to remote objects(RMI).
+In Marshalling, Object is serialized(member data is serialized) + [[id:fe97eeac-08d4-4f9a-8d30-10c903fc28cd][Codebase]] is attached.
+
+So Serialization is part of Marshalling.

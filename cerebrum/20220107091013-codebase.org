@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       fe97eeac-08d4-4f9a-8d30-10c903fc28cd
+:END:
+#+title: Codebase
+
+`CodeBase`: Information that tells the *receiver* of Object where the implementation of this object can be found.
+
+Any program that thinks it might ever pass an object to another program that may not have seen it before must set the `codebase`,
+so that the *receiver* can know where to download the code from, if it doesn't have the code available locally.
+The receiver will, upon deserializing ([[id:04122bab-c641-46fc-a198-95b0db7921b4][Serialization VS Marshalling]]) the object, fetch the codebase from it and load the code from that location.
