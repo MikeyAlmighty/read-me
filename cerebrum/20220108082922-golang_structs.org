@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       239c3ac8-6f30-40d1-8279-99f9cfe6c04f
+:END:
+#+title: Golang Structs
+
+Aggregate Data Type [aka Complex Data Type] (Compose values of different types).
+
+#+begin_src go
+func main() {
+  type person struct {
+    firstName: "Mikey",
+    lastName: "Leibbrandt",
+    age: 25, // Composite literals require trailing comma!
+  }
+
+  // Anonymous struct
+  p1 :=  struct {
+    firstName: "Mikey",
+    lastName: "Leibbrandt",
+    age: 25, // Composite literals require trailing comma!
+  }
+
+
+}
+#+end_src
+
+#+RESULTS:
