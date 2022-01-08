@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       88260185-dca7-4dc8-9831-2efe63b1ecb5
+:END:
+#+title: Grammar
+[[https://www.youtube.com/watch?v=F25ez8s3AsQ][Introduction to Grammars and BNF]] (2021)
+
+* The structure of a language:
+
+Syntactically correct, as well as semantically: "The girl ate the pasta".
+
+Syntactically correct (Not semantically): "girl pasta the ate the"
+
+* Semantics - Meaning of the langauge
+
+In English, correct syntax could also result in something meaningless:
+"Colorless green ideas sleep furiously."
+
+Syntax impacts semantics!
+
+* Terminals
+
+The base tokens of the language (Keywords, operators, parenthesis, curly braces etc.)
+
+* Nonterminals/Nonterminal symbols
+In english: Noun, verb, noun phrase, verb phrase etc.
+In programming: Statement, condition, sub-routine
+
+(Labels for part of the program, they do NOT appear in the actual program).
+
+* Productions/Production Rules
+These are the rules that make up the Grammar.
+Connect Terminals and Nonterminals to define what the language looks like.
+
+Example:
+
+In English:
+- A sentence is a noun phrase follwed by a verb phrase.
+- A verb phrase is a verb or a verb follwed by a noun phrase.
+- A verb is one of a list of words (the terminals that can be used as verbs). i.e. visited, liked.
+
+* Expressing a Grammar
+In programming we can use a variety of methods:
+- [[id:c713c2d8-8ebf-48a5-9f48-53ab58b97c7f][Backus Naur Form (BNF)]]
+- Extended Backus Naur Form (EBNF)
+- Syntax Diagrams

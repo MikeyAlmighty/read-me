@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       c713c2d8-8ebf-48a5-9f48-53ab58b97c7f
+:END:
+#+title: Backus Naur Form (BNF)
+
+Developed by John Backus (Designer of Fortran) and Peter Naur.
+
+- Terminals: simply written out: while
+- Nonterminals: enclosed in angle brackets: <statement>
+
+- Productions:
+  #+begin_example
+  <nonterminal> :: == <sequence of terminals or nonterminals>
+  <sentence> :: == <noun phrase><verb phrase>
+  #+end_example
+
+We can use | to represent OR.
+
+* Simple example
+#+begin_example
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<integer> ::= <digit> | <digit><number>
+<floating point> ::= <integer>.<integer>
+#+end_example
+
+[[id:88260185-dca7-4dc8-9831-2efe63b1ecb5][Grammar]]s tend to be inherently recursive.
