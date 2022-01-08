@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       3a5473f5-7328-4efc-9483-9e4574182951
+:END:
+#+title: Golang variadic parameter
+
+"Variadic functions can be called with any number of trailing arguments."
+
+#+begin_src go
+// nums []int or a slice of ints.
+func sum(nums ...int) {
+    fmt.Print(nums, " ")
+    total := 0
+    for _, num := range nums {
+        total += num
+    }
+    fmt.Println(total)
+}
+#+end_src
+
+Passing a slice into variadic function:
+#+begin_src go
+func sum(nums ...int) {
+    fmt.Print(nums, " ")
+    total := 0
+    for _, num := range nums {
+        total += num
+    }
+    fmt.Println(total)
+}
+
+func main(){
+  xi := []int{3,5,1,7,4}
+  sum(xi...)
+}
+#+end_src
+
+Variadic functions take in "zero-or-more" arguments.
+
+#+begin_src go
+func sum(nums ...int) {
+	...
+}
+
+func main(){
+  sum()
+}
+#+end_src

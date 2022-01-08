@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       d9beec7f-e2e4-4ee0-a517-d731094d7ea8
+:END:
+#+title: Golang methods
+Attach a `function` to any value that is of the specified type.
+
+#+begin_src go
+type SuperHero struct {
+   alterName string
+   realName string
+}
+
+// Here we attach exposeHero function to SuperHero, any value of type SuperHero can call this method.
+func (s SuperHero) exposeHero(){
+  fmt.Println(s.realName)
+}
+
+func main(){
+  deadpool := SuperHero{
+    alterName: "DeadPool",
+    realName: "Wade Wilson",
+  }
+  // Allows us to use dot-syntax
+  deadpool.exposeHero()
+}
+#+end_src

@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       2b362f1d-6b14-4d77-b226-4fd4c756171f
+:END:
+#+title: Golang Functions
+
+Everything in Go is passed by value!
+
+#+begin_src go
+
+func foo(){
+  fmt.Println("Hello, World!")
+}
+
+func bar(s string){
+  fmt.Println("Hello, ", s)
+}
+
+// Can return multiple values
+func multi (firstName string, lastName string) (string, bool){
+  a := fmt.Sprintf(firstName, lastName, ', says hello!')
+}
+
+func main(){
+  foo()
+  bar("Mikey")
+}
+#+end_src
+
+Multiple arguments of same type: [[id:3a5473f5-7328-4efc-9483-9e4574182951][Golang variadic parameter]]
+
+* Defer
+Defers the execution of a function until the surrounding function returns
+#+begin_src go
+func main(){
+  defer fmt.Println("world") // Prints last
+
+  fmt.Println("hello") // Prints first
+}
+#+end_src
