@@ -31,3 +31,5 @@ func (c circle) area float64 {
 Both circle and rectangle implement the interface `shape`.
 
 Think of interfaces as a "higher" level (Combining "common" types).
+
+Interfaces allows us to achieve [[id:cbc9b4d5-dac4-4fdc-b39a-6bc94d247248][Polymorphism]].
