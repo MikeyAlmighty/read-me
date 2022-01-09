@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cbc9b4d5-dac4-4fdc-b39a-6bc94d247248
+:END:
+#+title: Polymorphism
+
+The provision of a *single* interface to `entities` of different types or the use of a `single symbol` to represent multiple different types.
+
+Think of it as one level (of commonality) higher.

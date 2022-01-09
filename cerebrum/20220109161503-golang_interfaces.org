@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       671fc3cb-b0e1-4a86-9185-982408c7a4b6
+:END:
+#+title: Golang Interfaces
+
+A value can be of MORE than one Type.
+
+#+begin_src go
+type shape interface {
+  area() float64 // Method
+}
+
+type circle struct {
+  radius float64
+}
+
+type rectangle struct {
+  height float64
+  width float64
+}
+
+func (r rectangle) area float64 {
+  return r.width * r.height
+}
+
+func (c circle) area float64 {
+  return math.Pi * c.radius * c.radius
+}
+#+end_src
+
+Both circle and rectangle implement the interface `shape`.
+
+Think of interfaces as a "higher" level (Combining "common" types).
