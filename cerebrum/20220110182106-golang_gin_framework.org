@@ -2,8 +2,10 @@
 :ID:       24424aa6-5b02-4d77-ade8-3fbdb58621eb
 :END:
 #+title: Golang gin framework
-#+begin_src go
 
+[[https://go.dev/doc/tutorial/web-service-gin][Tutorial: Developing a RESTful API with Go and Gin]]
+
+#+begin_src go
 package main
 
 import (
