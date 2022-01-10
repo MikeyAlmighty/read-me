@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       68ff5d2a-921d-4035-acfc-194ccbb9c7a1
+:END:
+#+title: UML Relationships between classes
+
+
+
+Association (connects classes - straight line).
+Inheritance (Generalization, Arrow line pointing to parent). If descendants inherit from Abstract class, italize.
+Realization (Relationships between interface and objects that implement said interface. Dashed line with arrow).
+Dependency
+Aggregation (Continuous line with hollow diamond).
+Composition (Continuous line with filled diamond).
+
+* Multiplicity
+One to One: 1
+One to Many: 1..*
+Many to Many: *

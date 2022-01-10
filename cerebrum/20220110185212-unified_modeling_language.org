@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       ccd90f91-7b2b-49dd-bc1a-fd69f2406b7b
+:ROAM_ALIASES: UML
+:END:
+#+title: Unified Modeling Language
+
+[[https://www.youtube.com/watch?v=WnMQ8HlmeXc][UML Diagrams Full Course]]
+
+UML Diagrams Types belong to two categories:
+*Structural Diagrams* and *Behavioral Diagrams*.
+
+[[https://creately.com/blog/diagrams/uml-diagram-types-examples][UML Diagram Types]]
+
+* Structural Diagrams (Show different objects in the modeled system).
+- Composite Structure Diagram (Show internal structure of a class).
+- Deployment Diagram
+- Package Diagram (Shows dependencies between different packages).
+- Profile Diagram
+- Class Diagram (Shows classes in the system , attributes and operations of each class and the [[id:68ff5d2a-921d-4035-acfc-194ccbb9c7a1][relationship between each class]]).
+- Object Diagram
+- Component Diagram
+
+* Behavioral  Diagrams (Describes how the objects interact with each other).
+- Activity Diagram (Represents workflows (Business/operational)).
+- Use Case Diagram (Graphic overview of actors involved in a system, different functions needed by said actors).
+- State Machine Diagram
+- Interaction Diagram
+- Sequence Diagram (Represents how objects interact with each other and the order those interactions occur).
+- Communication Diagram (Similar to sequence diagrams, but the focus is on messages passed between objects).
+- Interview Overview Diagram
+- Timing Diagram
