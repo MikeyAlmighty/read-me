@@ -10,7 +10,7 @@ Inheritance (Generalization, Arrow line pointing to parent). If descendants inhe
 Realization (Relationships between interface and objects that implement said interface. Dashed line with arrow).
 Dependency
 Aggregation (Continuous line with hollow diamond).
-Composition (Continuous line with filled diamond).
+Composition (When a Child object can't exist WITHOUT it's parent object - Continuous line with filled diamond).
 
 * Multiplicity
 One to One: 1

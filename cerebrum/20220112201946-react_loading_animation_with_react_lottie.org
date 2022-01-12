@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       7e792909-a5b2-4bd0-92f5-08f9b14fb7e1
+:END:
+#+title: React Loading Animation with react-lottie
+
+[[https://www.youtube.com/watch?v=A3VPjS_OPvY][React Loading Animation With React-Lottie]]
+
+Format: [[id:1fcd2f2b-42f0-4d31-8768-c4edebd6de1a][Lottie file]]
+
+There are 2 popular packages for react and lottie:
+ - [[https://www.npmjs.com/package/lottie-react][lottie-react]] (Made use of this one found it a lot cleaner).
+ - [[https://www.npmjs.com/package/react-lottie][react-lottie]]
+
+(Because that wasn't confusing).
+
+[[https://github.com/Gamote/lottie-react/issues/29#issuecomment-807345312][issue: lottie-react: React v17 support]]

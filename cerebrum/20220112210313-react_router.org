@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       5794e53b-b33c-4f60-b896-2d9d1b7ed4d9
+:END:
+#+title: React router
+
+Really easy React routing package: [[https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md][react-router]]
+
+
+* 1. Add routes
+#+begin_src typescript
+// src/routes/about.jsx
+export default function About() {
+  return (
+    <main style={{ padding: "1rem 0" }}>
+      <h2>About</h2>
+    </main>
+  );
+}
+#+end_src
+
+* 2. Define Links
+
+#+begin_src typescript
+// src/App.tsx
+import { Link } from "react-router-dom";
+...
+ <Link to="/about">About</Link> |{" "}
+...
+#+end_src
+
+* 3. Wrap your app with BrowserRouter and add routes (element: Route to render).
+
+#+begin_src typescript
+// index.tsx
+...
+import { BrowserRouter } from "react-router-dom";
+
+import About from "./routes/about";
+...
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="about" element={<About />} />
+    </Routes>
+  </BrowserRouter>,
+  document.getElementById("root")
+);
+#+end_src
