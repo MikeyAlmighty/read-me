@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       018bca5f-3937-45ce-bf70-e37f9bbc1216
+:END:
+#+title: Git Worktree
+[[https://www.youtube.com/watch?v=cRunWRC8ye0][Manage Branches easily using Git Worktree]]
+
+Manage multiple working trees attached to the same repository.
+
+* Clone project to master directory (And branch on master)
+`git worktree add ../master master`
+
+* List worktrees
+`git worktree list`
+
+* Remove worktree:
+`git worktree remove master`
