@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0f5e94ba-169d-4955-94a4-96c7d53781e4
+:END:
+#+title: Android Manifest File
+
+`AndroidManifest.xml`
+
+The manifest file describes essential information about your app to the *Android build tools*, the *Android Operating System*, and *Google Play*.
