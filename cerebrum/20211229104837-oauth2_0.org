@@ -3,12 +3,13 @@
 :END:
 #+title: OAuth2.0
 
+[[https://www.youtube.com/watch?v=CPbvxxslDTU][OAuth2.0: An Overview]]
+
 The OAuth 2.0 authorization framework enables a third-party
 application to obtain limited access to an HTTP service, either on
 behalf of a resource owner by orchestrating an approval interaction
 between the resource owner and the HTTP service, or by allowing the
 third-party application to obtain access on its own behalf.
-
 * Analogy
 Many luxury cars today come with a valet key.
 It is a special key you give the parking attendant and unlike your regular key, will not allow the car to drive more than a mile or two.
