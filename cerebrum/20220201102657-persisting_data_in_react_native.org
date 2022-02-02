@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       4316d556-e8cc-4e18-9bf2-3b4308effb1f
+:END:
+#+title: Persisting Data in React Native
+
+[[https://pusher.com/tutorials/persisting-data-react-native][Persisting data in React Native]]
+
+
+React Native provides several ways to persist data and your choice should depend on the type and amount of data you’ll be handling.
+We have seen four methods of persisting data in React Native, each with its own strength.
+AsyncStorage is great for storing small data which needs to be serialized.
+You shouldn’t use AsyncStorage for handling relational data in any form.
+If you are interested in storing relational data, look more into SQLite.
+
+If SQLite is too slow for what you want to achieve, then Realm is the better solution. If you are storing JavaScript objects to your database, then you should consider MongoDB.
+
+* Handling Migrations
+
+Simplest way to handle migrations is to nuke the `client db` whenever there is a *schema change* and let it sync from the server.
+
+This is not a great idea if the amount of data to be synced is large.
+In that case you will need to have migrations run on the device as well.
+
+If you are doing this you will need to have a schema version and make sure that any syncing happens only on the latest schema versions i.e devices that haven't run the migrations should not be able to pull or push data  .

@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       79aafc6f-fb50-472f-850a-f3bf44a9a82f
+:END:
+#+title: Offline First
+
+General issues faced with offline first:
+
+Syncing
+Data could be 1. Out of order or 2.Conflicts
+(Conflict management is a real pain)
+
+[[https://www.youtube.com/watch?v=b7TtH57Nlic][Offline-first in React Native: How to build great offline apps - Josh Warwick]]
+
+* Approaches
+
+** Feature Restriction
+What components/features do we block?
+(Easy to implement, moves complexity to the UX side).
+
+Can simply use [[https://github.com/react-native-netinfo/react-native-netinfo#usenetinfo][useNetInfo()]] hook to determine paths. (Offline/Online)
+
+** Caching
+What "bare minimum" data do we need to persist to keep the App running?
+
+caveat: Can't cache everything, (possible) Data protection (We have to encrypt our side).
+(Generally don't cache user sensitive data)
+
+** Request Queuing - Can we keep all the updates stored in a queue and apply them all?
+Oposite of Feature restriction, everything is still possible.
+
+caveat: Quite complex, do we automatically retry? Optimistic update? How do we notify the user?
+
+* What makes a great offline App
+1. Self-containedd
+2. Informative
+3. Seamless
+
+
+See [[id:4316d556-e8cc-4e18-9bf2-3b4308effb1f][Persisting Data in React Native]]

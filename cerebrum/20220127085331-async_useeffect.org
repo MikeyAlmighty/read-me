@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       11a0abca-dc20-447e-8477-33527ec96cb1
+:END:
+#+title: Async UseEffect
+
+#+begin_src javascript
+  useEffect(() => {
+    async function fetchMyAPI() {
+      let response = await fetch('api/data')
+      response = await response.json()
+      dataSet(response)
+    }
+
+    fetchMyAPI()
+  }, [])
+#+end_src
