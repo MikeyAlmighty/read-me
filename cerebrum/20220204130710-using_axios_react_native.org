@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a354c322-1fd3-471d-8d51-c1cdc2e8f131
+:END:
+#+title: Using Axios React Native
+[[https://blog.logrocket.com/using-axios-react-native-manage-api-requests/][Using Axios With React Native to Manage API Requests]]
+
+"The built-in fetch API might suffice if you only want to retrieve a resource from the server.
+Axios may be a better option for more complex networking requirements because it comes with additional features, such as the interception of network requests and responses."
+
+"Additionally, among other reasons, most developers prefer `Axios` over the built-in `fetch` API because of its *isomorphic* nature and *out-of-the-box JSON transformation.*"
+
+[[https://blog.logrocket.com/react-native-jwt-authentication-using-axios-interceptors/][React Native JWT Authentication using axios interceptors]]

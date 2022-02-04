@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b9345027-c73e-4e31-b0f9-e28958ad9eef
+:END:
+#+title: React Native Expo
+
+Expo is React Native's hook into the underworld.
+Introduces the idea of easy app development (If the app is VERY small).
+
+[[https://www.youtube.com/watch?v=IjaghytctJU][10 Lessons I Learnt Building React Native Apps]]
+
+Most companies generally prefer React Native CLI (More exposed, access to native functionalities)

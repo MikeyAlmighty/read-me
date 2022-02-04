@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       178214fb-1455-4d0b-8ec9-56bb3927753a
+:END:
+#+title: Detox React Native
+
+[[https://wix.github.io/Detox/docs/introduction/getting-started/][Detox Testing]]
+
+Gray box end-to-end testing and automation framework for mobile apps.
+
+Supports different Test runners,
+Cross-platform
+Debuggable
+Automatically Synchronized
+Made for CI
+Runs on Devices
