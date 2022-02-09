@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       9574ed37-576e-4f39-bd15-e3f48720dd75
+:END:
+#+title: Partial Utility Type
+
+Creates a type with *all* properties of Type set to *optional*.
+
+#+begin_src typescript
+interface Starship {
+  name: string;
+  enableHyperJump: boolean
+}
+
+const updateStarship = (id: number, starship: Partial<Starship> ) => {}
+
+
+updateStarship(1, { name: 'Explorer' })
+#+end_src

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9b2a6380-6630-4432-99c7-bcfe6c3691f6
+:END:
+#+title: React Native Security and Authentication
+
+[[https://www.youtube.com/watch?v=KqbiRuyi1ck][React Native EU 2019: Kadi Kraman - Security And Authentication In React Native]]

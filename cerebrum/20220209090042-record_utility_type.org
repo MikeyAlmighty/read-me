@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       d10bd9a3-0e7f-4374-9558-92e35d280285
+:END:
+#+title: Record Utility Type
+
+[[https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type][Handbook: Record]]
+[[https://www.youtube.com/watch?v=Fgcu_iB2X04][Utility Types - Advanced TypeScript]]
+This utility can be used to map the properties of a type to another type.
+
+* Record<Keys, Type>
+#+begin_src typescript
+interface Starship {
+  name: string;
+  enableHyperJump: boolean
+}
+
+const starships: Record<string, Starship> = {
+    Explorer1: {
+        name: 'Explorer1',
+        enableHyperJump: true
+    },
+    Explorer2: {
+        name: 'Explorer2',
+        enableHyperJump: false
+    },
+}
+#+end_src
