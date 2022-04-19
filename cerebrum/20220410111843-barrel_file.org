@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       4cfb8447-ff9c-4c77-bc4d-6e1e5c9f43bf
+:END:
+#+title: Barrel File
+
+* Barrel
+
+A ~barrel~ is a way to rollup exports from several modules into a single convenient module.
+The barrel itself is a `module file` that re-exports selected exports of other modules.

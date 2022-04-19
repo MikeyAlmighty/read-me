@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3f65f7aa-b01d-4453-96bb-16b68ff8fbbf
+:END:
+#+title: Work estimates must account for Friction
+
+[[https://stackoverflow.blog/2022/02/14/work-estimates-must-account-for-friction/][Work estimates must account for Friction]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b6f7febf-18b8-4da1-b184-63a6a43cde09
+:END:
+#+title: NPM link
+
+Mastering the two-step process of npm link is a useful addition to the toolset of any Node.js developer.
+The process consists of running `npm link` in the *dependency*, and *npm link some-dep* in the *application*.
